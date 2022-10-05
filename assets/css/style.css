@@ -12,24 +12,30 @@ body {
     background-color: purple;
 }
 
-header {
-    display: inline;
+#logo {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+h1, h2 {
+    margin-left: 96px;
+    color: whitesmoke;
 }
 .brand-title {
     font-family: 'Courgette', sans-serif;
     font-weight: 700;
     font-size: 450%;
     letter-spacing: 4px;
-    color: whitesmoke;
-    text-transform: uppercase;
-    display: inline-block;
+    text-transform: uppercase;    
+    float: left;
 }
 
 .slogan {
     font-size: 220%;
     font-weight: 400;
-    clear:both;
-    display: inline-block;
+    vertical-align: middle;
+    float: left;
 }
 
 #navbar {
