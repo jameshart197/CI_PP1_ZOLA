@@ -67,17 +67,44 @@ h1, h2 {
     color: black;
 }
 
+#navbar a:hover {
+    border: 2px solid black;
+    padding: 4px;
+}
+
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 96px;
+    height: 192px;
     background-color: rgb(164, 1, 214);
+}
+
+span > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.social {
+    position: relative;
+    top: 48px;
+    display: inline;
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: black;
+    padding: 48px;
+}
+
+.social i {
+    font-size: 150%;
+    position: relative;
+    top: -30px;
+    left: 4%;
 }
 
 #footer-telephone {
     position: relative;
-    bottom: 12px;
+    bottom: -96px;
     text-align: center;
     color: whitesmoke;
 }
