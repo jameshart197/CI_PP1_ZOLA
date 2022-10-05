@@ -7,6 +7,8 @@
 }
 
 body {
+    padding-top: 96px;
+    padding-bottom: 192px;
     font-family: Courgette, sans-serif;
     color: #fff;
     background-color: slategray;
