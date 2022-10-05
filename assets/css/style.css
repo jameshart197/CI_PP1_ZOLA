@@ -19,7 +19,7 @@ header {
     top: 0;
     width: 100%;
     height: 96px;
-    background-color: rgb(164, 1, 214);
+    background-color: rgb(100, 3, 129);
 }
 
 #logo {
@@ -84,13 +84,21 @@ header {
     width: 100%;    
 }
 
-/*about us */
+/* pannelling */
 
 .black-panel {
     background-color: black;
     width: 100%;
     height: 300px;
 }
+
+.purple-panel {
+    background-color: rgb(100, 3, 129);
+    width: 100%;
+    height: 300px;
+}
+
+/*about us */
 
 .about-us-text {
     display: inline-block;
@@ -109,6 +117,8 @@ header {
     margin: 0 auto;
 }
 
+/* share drinks */
+
 #share-drinks-img {
     display: inline-block;
 }
@@ -119,25 +129,33 @@ header {
     margin: 24px 0 0 256px;
 }
 
-.private-booth {
-    background-color: rgb(164, 1, 214);
-    width: 100%;
-    height: 300px;
-}
+/* private booth */ 
 
 #private-booth-img {
-    height: 256px;
-    width: 256px;
-    margin: 24px 0 0 256px;
+    display: inline-block;
 }
 
+#private-booth-img img {
+    height: 256px;
+    margin-top: 24px;
+}
+
+#private-booth-text {
+}
+
+/* what makes zola special? */
+
+#special-section {
+    background: url('../images/barbackground.jpg');
+    width: 100%;
+}
 
 /*footer */
 
 footer {
     width: 100%;
     height: 192px;
-    background-color: rgb(164, 1, 214);
+    background-color: rgb(100, 3, 129);
 }
 
 span > a {
