@@ -15,17 +15,20 @@ body {
 /* header */
 
 header {
-    position: absolute;
-    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 96px;
     background-color: rgb(100, 3, 129);
 }
 
+header > a {
+    height: 100%;
+}
+
 #logo {
     height: 100%;
-    width: 96px;
-    float: left;
 }
 
 .brand-title {
@@ -174,8 +177,22 @@ header {
     justify-content: space-evenly;
 }
 
+#special-section > h2 {
+    background-color: rgba(100, 3, 129, .6);
+    padding: 1.5em;
+    border-radius: 12px;
+}
+
 #special-section > div > div {
     width: 25%;
+    background-color: rgba(100, 3, 129, .6);
+    padding: .5em;
+    border-radius: 12px;
+}
+
+#special-section i {
+    font-size: 300%;
+    margin: 12px;
 }
 
 /*footer */
@@ -192,25 +209,14 @@ span > a {
 }
 
 .social {
-    position: relative;
-    top: 48px;
-    display: inline;
-    margin-left: 8%;
-    margin-right: 8%;
     background-color: black;
-    padding: 48px;
 }
 
 .social i {
     font-size: 150%;
-    position: relative;
-    top: -30px;
-    left: 4%;
 }
 
 #footer-telephone {
-    position: relative;
-    bottom: -96px;
     text-align: center;
     color: whitesmoke;
 }
