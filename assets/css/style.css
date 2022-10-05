@@ -9,12 +9,20 @@
 body {
     font-family: Courgette, sans-serif;
     color: #fff;
-    background-color: purple;
+    background-color: slategray;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 96px;
+    background-color: rgb(164, 1, 214);
 }
 
 #logo {
-    height: 100px;
-    width: 100px;
+    height: 100%;
+    width: 96px;
     float: left;
 }
 
@@ -48,4 +56,12 @@ h1, h2 {
     display: inline;
     float: left;
     margin-right: 24px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 96px;
+    background-color: rgb(164, 1, 214);
 }
