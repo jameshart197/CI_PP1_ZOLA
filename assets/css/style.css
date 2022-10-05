@@ -8,7 +8,7 @@
 
 body {
     font-family: Courgette, sans-serif;
-    color: #fff;
+    color: whitesmoke;
     background-color: slategray;
 }
 
@@ -33,42 +33,28 @@ header > a {
 }
 
 .brand-title {
-    font-family: 'Courgette', sans-serif;
     font-weight: 700;
     font-size: 450%;
     letter-spacing: 4px;
     text-transform: uppercase;    
-    float: left;
-    margin-left: 96px;
-    color: whitesmoke;
 }
 
 .slogan {
     font-size: 220%;
     font-weight: 400;
-    vertical-align: middle;
-    float: left;
-    margin-left: 96px;
-    color: whitesmoke;
 }
 
 /* navigation bar */
 
-#navbar {
-    float: right;
-    padding: 12px;
-}
-
 #navbar li {
     list-style-type: none;
     display: inline;
-    float: left;
     margin-right: 24px;
 }
 
 #navbar a {
     text-decoration: none;
-    color: blue;
+    color: whitesmoke;
 }
 
 #navbar .current {
