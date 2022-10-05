@@ -12,16 +12,6 @@ body {
     background-color: slategray;
 }
 
-#page-container {
-    position: relative;
-    min-height: 100vh;
-}
-
-#content-container {
-    padding-top: 96px;
-    padding-bottom: 192px;
-}
-
 /* header */
 
 header {
@@ -38,10 +28,6 @@ header {
     float: left;
 }
 
-h1, h2 {
-    margin-left: 96px;
-    color: whitesmoke;
-}
 .brand-title {
     font-family: 'Courgette', sans-serif;
     font-weight: 700;
@@ -49,6 +35,8 @@ h1, h2 {
     letter-spacing: 4px;
     text-transform: uppercase;    
     float: left;
+    margin-left: 96px;
+    color: whitesmoke;
 }
 
 .slogan {
@@ -56,6 +44,8 @@ h1, h2 {
     font-weight: 400;
     vertical-align: middle;
     float: left;
+    margin-left: 96px;
+    color: whitesmoke;
 }
 
 /* navigation bar */
@@ -74,7 +64,7 @@ h1, h2 {
 
 #navbar a {
     text-decoration: none;
-    color: whitesmoke;
+    color: blue;
 }
 
 #navbar .current {
@@ -96,16 +86,16 @@ h1, h2 {
 
 /*about us */
 
-.share-drinks {
+.black-panel {
     background-color: black;
     width: 100%;
     height: 300px;
 }
 
 .about-us-text {
-    width: 50%;
-    float: left;
-    margin-top: 48px;
+    display: inline-block;
+    max-width: 50%;
+    margin: 0 auto;
     font-family: Raleway;
     text-align: center;
 }
@@ -115,12 +105,15 @@ h1, h2 {
 }
 
 .about-us-text p {
-    width: 25%;
-    position: absolute;
-    left: 15%;
+    max-width: 50%;
+    margin: 0 auto;
 }
 
 #share-drinks-img {
+    display: inline-block;
+}
+
+#share-drinks-img img {
     height: 256px;
     width: 256px;
     margin: 24px 0 0 256px;
@@ -142,8 +135,6 @@ h1, h2 {
 /*footer */
 
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     height: 192px;
     background-color: rgb(164, 1, 214);
