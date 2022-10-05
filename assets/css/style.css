@@ -105,7 +105,6 @@ header > a {
     text-align: center;
 }
 
-
 /*about us */
 
 .about-us-text {
@@ -118,29 +117,13 @@ header > a {
     font-size: 2.5em;
 }
 
-/* share drinks */
-
-#share-drinks-img {
-    display: inline-block;
-}
-
 #share-drinks-img img {
     height: 256px;
     width: 256px;
 }
 
-/* private booth */ 
-
-#private-booth-img {
-    display: inline-block;
-}
-
 #private-booth-img img {
     height: 256px;
-}
-
-#private-booth-text {
-    /* this is placeholder text */
 }
 
 /* what makes zola special? */
@@ -225,4 +208,13 @@ div > a {
 #footer-telephone {
     text-align: center;
     color: whitesmoke;
+}
+
+/* --- What's On --- */
+
+#whats-on-container {
+    background: url('../images/purple-water.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1200px;
 }
