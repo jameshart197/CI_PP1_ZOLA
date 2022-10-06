@@ -213,8 +213,35 @@ div > a {
 /* --- What's On --- */
 
 #whats-on-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     background: url('../images/purple-water.jpg') no-repeat;
     background-size: cover;
     width: 100%;
     height: 1200px;
+    text-align: center;
+}
+
+
+#whats-on-container > div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#whats-on-container > div > div {
+    background-color: rgba(95, 93, 95, 0.6);
+    padding: 25px;
+    width: 33%;
+}
+
+#happy-hour-img img {
+    height: 256px;
+}
+
+#live-music-img img {
+    height: 256px;
 }
