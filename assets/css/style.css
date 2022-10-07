@@ -20,8 +20,7 @@ header {
     align-items: center;
     width: 100%;
     height: 96px;
-    background: url('../images/purple-backdrop.jpg') no-repeat center 0;
-    background-size: cover;
+    background: linear-gradient(77deg, rgba(35,0,105,0.9023984593837535) 0%, rgba(134,125,153,1) 50%, rgba(35,0,105,1) 100%);
 }
 
 header > a {
@@ -91,16 +90,18 @@ header > a {
     text-align: center;
 }
 
-.purple-panel {
+.grey-panel {
     display: flex;
-    background-color: rgb(71, 69, 71);
+    background-color: rgb(114, 114, 114);
     width: 100%;
     height: 300px;
     align-items: center;
     justify-content: space-evenly;
+    color: black;
+    text-align: center;
 }
 
-.purple-panel > div {
+.grey-panel > div {
     width: 33%;
     text-align: center;
 }
@@ -174,8 +175,7 @@ footer {
     justify-content: space-evenly;
     width: 100%;
     height: 192px;
-    background: url('../images/purple-backdrop.jpg') no-repeat center 0;
-    background-size: cover;
+    background: linear-gradient(77deg, rgba(35,0,105,0.9023984593837535) 0%, rgba(134,125,153,1) 50%, rgba(35,0,105,1) 100%);
 }
 
 #footer-socials {
