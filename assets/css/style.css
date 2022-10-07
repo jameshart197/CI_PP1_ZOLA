@@ -254,13 +254,12 @@ div > a {
 }
 
 #right-side-container > div {
-    background-color: rgba(95, 93, 95, 0.6);
     padding: 25px;
     width: 50%;
 }
 
 #left-side-container > div {
-    background-color: rgba(95, 93, 95, 0.6);
+    background: radial-gradient(circle, rgba(0,0,0,0.9023984593837535) 0%, rgba(42,42,42,0.896796218487395) 100%);
     padding: 25px;
     width: 70%;
 }
@@ -289,9 +288,15 @@ div > a {
     justify-content: space-around;
 }
 
+#newsletter-banner {
+    background: radial-gradient(circle, rgba(0,0,0,0.9023984593837535) 0%, rgba(42,42,42,0.896796218487395) 100%);
+}
+
+#newsletter-banner h2 {
+    padding-bottom: 1em;
+}
 #newsletter-banner p {
-    color: black;
-    font-weight: bold;
+    color: rgb(197, 197, 197);
 }
 
 #newsletter-form-container {
@@ -322,6 +327,11 @@ div > a {
     background: linear-gradient(49deg, rgba(70,70,70,1) 0%, rgba(34,34,34,1) 70%, rgba(96,0,120,1) 100%);
     text-align: center;
     color: white;
+}
+
+#signup:hover {
+    color: cyan;
+    cursor: pointer;
 }
 
 /* Contact Us */
