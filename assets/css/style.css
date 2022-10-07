@@ -302,3 +302,36 @@ div > a {
     color: white;
 }
 
+/* Contact Us */
+
+.contact-us-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: blue;
+    justify-content: space-between;
+}
+
+.contact-us-container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    
+}
+
+.contact-us-container > div > div {
+    background-color: rgba(0, 0, 0, .8);
+    border: 2px solid black;
+    width: 100%;
+}
+
+.contact-leftside {
+    width: 60%;
+}
+
+.contact-rightside {
+    width: 30%;
+}
