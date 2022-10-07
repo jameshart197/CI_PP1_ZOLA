@@ -35,7 +35,7 @@
     </header>
 
     <div id="whats-on-container">
-        <div id="top-half-container">
+        <div id="left-side-container">
             <div id="happy-hour">
                 <div id="happy-hour-img">
                     <img src="assets/images/happy-hour.jpg" alt="Two cocktails on a bar table">
@@ -47,13 +47,6 @@
                     <h3>Monday to Thursday</h3>
                 </div>
             </div>
-            <div id="newsletter-banner">
-                <h2>Stay ahead of the curve! Sign up to our Newsletter</h2>
-                <p>Sign up to our newsletter to recieve all the latest news and updates, hear of our latest offers and be
-                    entered into a raffle for a chance to win a perfect night for you and up to six others!</p>
-            </div>
-        </div>    
-        <div id="bot-half-container">
             <div id="live-music">
                 <div id="live-music-text">
                 <h2>Live Music</h2>
@@ -65,15 +58,35 @@
                     <img src="assets/images/live-music.jpg" alt="A live band playing music">
                 </div>
             </div>
-            <div id="newsletter-form">
-                <!-- Form
-                    label, first name, first name
-                    label, last name, last name
-                    label, email address, email
-                    label, date of birth, DOB
-                    checkbox, agree to T+C
-                    submit button, sign up!
-                -->
+            
+        </div>    
+        <div id="right-side-container">
+            <div id="newsletter-banner">
+                <h2>Stay ahead of the curve! Sign up to our Newsletter</h2>
+                <p>Sign up to our newsletter to recieve all the latest news and updates, hear of our latest offers and be
+                    entered into a raffle for a chance to win a perfect night for you and up to six others!</p>
+            </div>
+            <div id="newsletter-form-container">
+                <form id="newsletter-form">
+                    <label for="firstname">First Name 
+                        <input id="firstname" type="text" required>
+                    </label>
+                    <label for="lastname">Last Name 
+                        <input id="lastname" type="text" required>
+                    </label>
+                    <label for="email">Email Address
+                        <input id="email" type="email" required>
+                    </label>
+                    <label for="dob">Date of Birth 
+                        <input id="dob" type="date" required>
+                    </label>
+                    <label for="terms">By checking this box you agree to recieve news, updates and offers via email 
+                        <input id="terms" type="checkbox" required>
+                    </label>
+                    <label for="submit">
+                        <input id="submit" type="submit" value="Sign Up!" required>
+                    </label>
+                </form>
             </div>
         </div>    
     </div>
