@@ -247,27 +247,31 @@ div > a {
 
 .menu-container {
     background: linear-gradient(77deg, rgba(147,71,0,0.5) 0%, rgba(79,0,0,.5) 50%, rgba(251,65,2,.5) 100%);
-    display: inline-grid;
-    align-items: center;
-    justify-content: space-around;
-    grid-template-columns: 300px 300px 100px 100px 300px 300px 100px;
-    grid-template-rows: 250px 250px 250px 250px;
+    display: grid;
+    grid-template-columns:  3fr auto 1fr .5fr 3fr auto 1fr;
+    grid-template-rows: 150px;
+    align-items: flex-start;
     text-align: center;
-    column-gap: 25px;
-    row-gap: 25px;
-    /* background: url('../images/menu-book.png') no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%; */
+    width: 80%;
+    margin: 0 auto;
 }
 
-.menu-container img {
+.menu-cocktail {
+    padding: 12px;
+}
+
+.menu-img, .menu-price {
+    padding: 12px 0;
+}
+.menu-img img {
     height: 140px;
     width: 100px;
 }
 
-
-
+.menu-break {
+    background-color: rgba(0,0,0,.8);
+    height: 100%;
+}
 
 /* --- What's On --- */
 
