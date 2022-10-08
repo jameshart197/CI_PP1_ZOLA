@@ -116,10 +116,20 @@ div > a {
 /*hero image */
 
 #hero-image {
-    background: url('../images/backbar.jpg') no-repeat center center;
+    background: url('../images/backbar.jpg') repeat center center;
+    background-size: cover;
     height: 300px;
-    width: 100%;    
+    width: 150%;    
+    animation: animate 30s linear infinite;
 }
+@keyframes animate {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-25%);
+    }
+  }
 
 /* pannelling */
 
@@ -208,14 +218,14 @@ div > a {
 }
 
 #special-section > h2 {
-    background-color: rgba(100, 3, 129, .6);
+    background: linear-gradient(77deg, rgba(17,0,36,0.6951155462184874) 0%, rgba(109,4,237,0.700717787114846) 50%, rgba(37,11,97,0.7035189075630253) 100%);
     padding: 1.5em;
     border-radius: 12px;
 }
 
 #special-section > div > div {
     width: 25%;
-    background-color: rgba(100, 3, 129, .6);
+    background: linear-gradient(77deg, rgba(17,0,36,0.6951155462184874) 0%, rgba(109,4,237,0.700717787114846) 50%, rgba(37,11,97,0.7035189075630253) 100%);
     padding: .5em;
     border-radius: 12px;
 }
@@ -246,7 +256,7 @@ div > a {
 }
 
 .menu-container {
-    background: linear-gradient(77deg, rgba(147,71,0,0.5) 0%, rgba(79,0,0,.5) 50%, rgba(251,65,2,.5) 100%);
+    background: linear-gradient(77deg, rgba(147,71,0,0.7) 0%, rgba(79,0,0,.6) 50%, rgba(251,65,2,.6) 100%);
     display: grid;
     grid-template-columns:  3fr auto 1fr .5fr 3fr auto 1fr;
     grid-template-rows: 150px;
@@ -262,6 +272,7 @@ div > a {
 
 .menu-img, .menu-price {
     padding: 12px 0;
+    font-size: 150%;
 }
 .menu-img img {
     height: 140px;
