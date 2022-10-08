@@ -8,6 +8,7 @@
 
 body {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
@@ -26,7 +27,6 @@ header {
 
 header, footer {
     display: flex;
-    height: auto;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
@@ -133,16 +133,20 @@ div > a {
     }
   }
 
-/* pannelling */
+/* panelling */
 
 .black-panel {
-    display: flex;
     background-color: black;
-    width: 100%;
-    height: 300px;
+}
+
+.black-panel, .grey-panel {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
     align-items: center;
     justify-content: space-evenly;
-
+    padding: 1em 0;
+    text-align: center;
 }
 
 .black-panel > div {
@@ -151,17 +155,11 @@ div > a {
 }
 
 .grey-panel {
-    display: flex;
     background-color: rgb(114, 114, 114);
-    width: 100%;
-    height: 300px;
-    align-items: center;
-    justify-content: space-evenly;
     color: black;
-    text-align: center;
 }
 
-.grey-panel > div {
+.grey-panel div {
     width: 33%;
     text-align: center;
 }
@@ -169,7 +167,6 @@ div > a {
 /*about us */
 
 .about-us-text {
-    display: inline-block;
     font-family: Raleway;
     text-align: center;
 }
@@ -185,17 +182,35 @@ div > a {
 
 #private-booth-img img {
     height: 256px;
+    width: 384px;
+}
+
+@media (max-width:550px) {
+    .black-panel {
+        flex-direction: column;    
+}
+    #share-drinks-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .grey-panel {
+        flex-direction: column;    
+}
+    #private-booth-img img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 /* what makes zola special? */
 
 #special-section {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     background: url('../images/barbackground.jpg') no-repeat center center;
     background-size: cover;
-    height: 600px;
-    width: 100%;
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
@@ -214,7 +229,7 @@ div > a {
 
 #special-section > div {
     display:flex;
-    width: 100%;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -246,6 +261,16 @@ div > a {
     padding: 4px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+}
+
+@media (max-width:550px) {
+    #special-section > div {
+        flex-direction: column; 
+}
+    #special-section > div > div {
+        width: 80%;
+
+    }
 }
 
 /* Menu */
