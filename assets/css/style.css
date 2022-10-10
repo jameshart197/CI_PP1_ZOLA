@@ -18,43 +18,36 @@ body {
     background-color: slategray;
 }
 
-/* header */
-
-header {
-    justify-content: space-between;
-    height: 96px;
-}
-
-header, footer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
-    background: linear-gradient(70deg, #5b3b71 20%, rgba(60,60,60,0.9) 50%, #5b3b71 80%);
-}
-header > a {
-    height: 100%;
-}
+/* Header and Footer */
 
 #logo {
-    height: 100%;
+    max-height: 96px;
 }
 
-.brand-title {
+header,
+footer {
+    background: linear-gradient(70deg, #5b3b71 20%, rgba(60, 60, 60, 0.9) 50%, #5b3b71 80%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: xxx-large;
     font-weight: 700;
-    font-size: 450%;
     letter-spacing: 4px;
-    text-transform: uppercase;    
+    margin: 0;
+    padding-right: 1em;
 }
 
-.slogan {
-    font-size: 220%;
-    font-weight: 400;
+#navbar {
+    padding-left: 20px;
 }
 
-/* navigation bar */
-
-#navbar li {
+#navbar>li {
     list-style-type: none;
     display: inline;
     margin-right: 24px;
@@ -74,46 +67,39 @@ header > a {
     padding: 4px;
 }
 
-/*footer */
-
 footer {
     flex-direction: column;
-    justify-content: space-evenly;
-    height: 192px;
 }
 
-#footer-socials {
+footer>div {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
     width: 100%;
+    text-align: center;
+    padding-top: 1em;
 }
 
-#footer-socials > div {
-    width: 150px;
-}
-
-div > a {
+footer a {
     text-decoration: none;
     color: whitesmoke;
 }
 
-.social {
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(34,34,48,1) 35%, rgba(17,2,25,0.7987570028011204) 100%);
+footer>div>div {
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(34, 34, 48, 1) 35%, rgba(17, 2, 25, 0.7987570028011204) 100%);
     border-radius: 4px;
     text-align: center;
     padding: 1em;
+    width: 150px;
+    height: 80px;
 }
 
-.social i {
-    font-size: 150%;
+@media (max-width: 600px) {
+    #navbar li {
+        margin-right: 8px;
+    }
 }
-
-#footer-telephone {
-    text-align: center;
-    color: whitesmoke;
-}
-
 
 /*hero image */
 
@@ -328,15 +314,18 @@ div > a {
 /* --- What's On --- */
 
 #whats-on-container {
-    display: flex;
     background: url('../images/purple-water.jpg') no-repeat;
     background-size: cover;
+    display: flex;
     width: 100%;
     text-align: center;
     align-items: center;
     padding: 1em;
 }
 
+#right-side-container {
+    padding-top: 1em;
+}
 
 #whats-on-container > div {
     display: flex;
@@ -437,6 +426,7 @@ div > a {
 .contact-us-container {
     backdrop-filter: blur(3px);
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     padding: 1em;
     box-sizing: border-box;
@@ -489,11 +479,21 @@ div > a {
     padding-top: 1em;
 }
 
-div.contact-leftside {
-    align-items: stretch;
-    width: 60%;
+@media (min-width: 40rem) {
+    .contact-us-container {
+        flex-direction: row;
+    }
+    #booking-banner {
+        width: 60%;
+    }
+
+    .contact-rightside {
+        width: 40%;
+    }
 }
 
-.contact-rightside {
-    width: 30%;
+@media (min-width: 60rem) {
+    .contact-rightside {
+        width: 30%;
+    }
 }
