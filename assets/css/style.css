@@ -41,6 +41,8 @@ header h1 {
     padding-right: 1em;
 }
 
+/* navigation bar */
+
 #navbar {
     padding-left: 20px;
 }
@@ -64,6 +66,8 @@ header h1 {
     border: 2px solid black;
     padding: 4px;
 }
+
+/* Footer specific */ 
 
 footer {
     flex-direction: column;
@@ -110,7 +114,7 @@ footer>div>div {
     width: 100%;
 }
 
-/* Panel 1 */
+/* Panel 1 and 2 */
 
 .index-panel {
     display: flex;
@@ -139,7 +143,7 @@ footer>div>div {
     color: black;
 }
 
-/* Index panel 3 */
+/* Panel 3 */
 
 .index-panel3-background {
     background: url('../images/barbackground.jpg') no-repeat center center;
@@ -208,7 +212,7 @@ footer>div>div {
     color: cyan;
 }
 
-/* Menu */
+/* Menu Page */
 
 .menu-background {
     background: url('../images/backbar.jpg') no-repeat center center;
