@@ -2,7 +2,7 @@
 
 /* Base styling */
 
-* _ {
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -235,7 +235,6 @@ footer>div>div {
 
 .menu-container>div {
     border-top: 2px solid black;
-    border-block-start: 2px solid black;
 }
 
 .menu-break {
