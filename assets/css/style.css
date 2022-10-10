@@ -401,7 +401,7 @@ footer>div>div {
 
 #background-404 {
     background: url('../images/background-404.jpg') no-repeat center;
-    background-size: contain;
+    background-size: cover;
     min-height: calc(100vh - 290px);
     text-align: center;
     font-size: 200%;
@@ -482,6 +482,9 @@ footer>div>div {
 
     .contact-rightside {
         width: 40%;
+    }
+    #background-404 {
+        background-size: contain;
     }
 }
 
