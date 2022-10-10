@@ -333,6 +333,7 @@ footer>div>div {
 .contact-us-background {
     background: url('../images/contact-us-background-bar.jpg') no-repeat center center;
     background-size: cover;
+    min-height: calc(100vh - 290px);
 }
 
 .contact-us-container {
