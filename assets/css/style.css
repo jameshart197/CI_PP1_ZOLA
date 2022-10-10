@@ -305,6 +305,8 @@ footer>div>div {
     background: url('../images/form-background-glass.jpg') no-repeat center;
     background-size: cover;
     height: 100%;
+    max-width: 550px;
+    margin: 0 auto;
 }
 
 #newsletter-form {
