@@ -46,7 +46,7 @@ header h1 {
 #navbar>li {
     list-style-type: none;
     display: inline;
-    margin-right: 24px;
+    margin-right: 8px;
 }
 
 #navbar a {
@@ -99,11 +99,7 @@ footer>div>div {
     height: 80px;
 }
 
-@media (max-width: 600px) {
-    #navbar li {
-        margin-right: 8px;
-    }
-}
+
 
 /* Hero Image */
 
@@ -392,6 +388,10 @@ footer>div>div {
 
 @media (min-width: 40rem) {
 
+    #navbar li {
+        margin-right: 24px;
+    }
+    
     .index-panel {
         flex-direction: row;
     }
