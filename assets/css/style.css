@@ -355,6 +355,10 @@ footer>div>div {
     width: 100%;
 }
 
+.contact-leftside iframe {
+    width: 100%;
+}
+
 .contact-tile>div {
     background: linear-gradient(50deg, rgba(83, 83, 83, 0.6951155462184874) 0%, rgba(55, 49, 59, 0.700717787114846) 25%, rgba(51, 36, 57, 0.6951155462184874) 50%, rgba(83, 41, 93, 0.700717787114846) 75%, rgba(54, 8, 65, 0.700717787114846) 100%);
     width: 80%;
@@ -391,7 +395,7 @@ footer>div>div {
     #navbar li {
         margin-right: 24px;
     }
-    
+
     .index-panel {
         flex-direction: row;
     }
@@ -452,7 +456,7 @@ footer>div>div {
     }
 
     .contact-leftside {
-        width: 60%;
+        width: 55%;
     }
 
     .contact-rightside {
