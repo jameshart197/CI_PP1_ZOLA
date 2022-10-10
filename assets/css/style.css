@@ -432,7 +432,7 @@ footer>div>div {
     }
 
     .whatson-leftside>div {
-        width: 70%;
+        max-width: 70%;
     }
 
     .whatson-rightside>div {
@@ -455,6 +455,10 @@ footer>div>div {
 @media (min-width: 60rem) {
     .index-panel>div {
         width: 33%;
+    }
+
+    .whatson-leftside>div {
+        max-width: 50%;
     }
 
     .contact-rightside {
