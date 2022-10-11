@@ -305,8 +305,8 @@ footer>div>div {
 }
 
 .whats-on-container p {
-    font-size: 1.1em;
-    padding: 12px;
+    padding: 6px;
+    background-color: black;
 }
 
 #newsletter-container {
