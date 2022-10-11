@@ -264,7 +264,7 @@ footer>div>div {
 /* What's On */
 
 #whats-on-background {
-    background: url('../images/purple-water.jpg') no-repeat;
+    background: url('../images/purple-water.webp') no-repeat;
     background-size: cover;
     width: 100%;
 }
@@ -314,7 +314,7 @@ footer>div>div {
 }
 
 #newsletter-form-image {
-    background: url('../images/form-background-glass.jpg') no-repeat center;
+    background: url('../images/form-background-glass.webp') no-repeat center;
     background-size: cover;
     height: 100%;
     max-width: 550px;
@@ -343,7 +343,7 @@ footer>div>div {
 /* Contact Us */
 
 .contact-us-background {
-    background: url('../images/contact-us-background-bar.jpg') no-repeat center center;
+    background: url('../images/contact-us-background-bar.webp') no-repeat center center;
     background-size: cover;
     min-height: calc(100vh - 290px);
 }
