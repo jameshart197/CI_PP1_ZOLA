@@ -1,108 +1,520 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Zola Bar <img src="assets/images/zola-logo.webp" style="width: 40px;height:40px;">
 
-Welcome james hart,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+**Developer: Aleksandra Haniok**
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Mockup image](docs/responsive-mockup.png)
 
-## Gitpod Reminders
+[Live website](https://jameshart197.github.io/CI_PP1_ZOLA/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Table of Content
 
-`python3 -m http.server`
+  - [Project Goals](#project-goals)
+    - [User Goals](#user-goals)
+    - [Site Owner Goals](#site-owner-goals)
+  - [User Experience](#user-experience)
+    - [Target Audience](#target-audience)
+    - [User Requirements and Expectations](#user-requirements-and-expectations)
+    - [User Stories](#user-stories)
+  - [Design](#design)
+    - [Colour](#colour)
+    - [Fonts](#fonts)
+    - [Structure](#structure)
+    - [Wireframes](#wireframes)
+  - [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Frameworks, Libraries & Tools](#frameworks-libraries--tools)
+  - [Features](#features)
+  - [Validation](#validation)
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
+  - [Testing](#testing)
+    - [Accessibility](#accessibility)
+    - [Performance](#performance)
+    - [Performing tests on various devices](#performing-tests-on-various-devices)
+    - [Browser compatability](#browser-compatability)
+    - [Testing user stories](#testing-user-stories)
+  - [Bugs](#bugs)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+  - [Acknowledgements](#acknowledgements)
 
-A blue button should appear to click: _Make Public_,
+## Project Goals
 
-Another blue button should appear to click: _Open Browser_.
+### User Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- 
+-
+-
 
-A blue button should appear to click: _Make Public_,
+### Site Owner Goals
 
-Another blue button should appear to click: _Open Browser_.
+- 
+-
+-
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## User Experience
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Target Audience
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+-
+-
+-
 
-------
 
-## Release History
+### User Requirements and Expectations
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- 
+-
+-
+-
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### User Stories
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+#### First-time users
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+1. As a first time user, 
+2. As a first time user, 
+3. As a first time user, 
+4. As a first time user, 
+5. As a first time user, 
+6. As a first time user, 
+7. As a first time user, 
+8. As a first time user, 
+   
+#### Returning visitor
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+9. As a returning user, 
+10. As a returning user, 
+11. As a returning user, 
+12. As a returning user, 
+13.  As a returning user, 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+#### Site Owner
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+14.	As the site owner, 
+15.	As the site owner, 
+16.	As the site owner, 
+17.	As the site owner, 
+18.	As the site owner, 
+19. As the site owner, 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Design
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Colour
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+This is a paragraph about colour.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Fonts
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+This is a paragraph about fonts.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Structure
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+This is a paragraph about structure.
 
-------
+This is a bulleted list about structure:
 
-## FAQ about the uptime script
+- 
+- 
+- 
+- 
 
-**Why have you added this script?**
+This is a sentence about 404 pages
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Wireframes
 
-**How will this affect me?**
+<details><summary>Desktop and Laptop Screens</summary>
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+</details>
+<details><summary>Mobile Screens</summary>
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+</details>
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Technologies Used
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Languages
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- HTML
+- CSS
 
-**So….?**
+### Frameworks, Libraries & Tools
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- [Am I Responsive](http://ami.responsivedesign.is/) was used to create the multi-device mock-up you can see at the start of this README.md file.
+- [Balsamiq](https://balsamiq.com/) to create the projects wireframes
+- [Bootstrap v5.1.3](https://getbootstrap.com/)
+- [Favicon.io](https://favicon.io) for making the site favicon
+- [Font Awesome](https://fontawesome.com/) - Icons from Font Awesome were used throughout the site.
+- [Git](https://git-scm.com/) was used for version control within VSCode to push the code to GitHub.
+- [GitHub](https://github.com/) was used as a remote repository to store project code.
+- [Google Fonts](https://fonts.google.com/)
+- [Google Maps](https://www.google.com/maps) were used to create the embedded map with location pins
+- [Pixabay.com](Pixabay.com) was used for pictures
+- [Remove.bg](https://www.remove.bg/) was used to remove background on logos
+- [WC3 Validator](https://validator.w3.org/), [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/), [Wave Validator](https://wave.webaim.org/), [Lighthouse](https://developers.google.com/web/tools/lighthouse/) and [Am I Responsive](http://ami.responsivedesign.is/) were all used to test the website
+  
+## Features
 
-**Can I opt out?**
+The website consists of four sections and ten features.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Logo and Navigation Bar
+- 
+-
+-
+-
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+![Logo and navbar](image)
+![Logo and navbar](image)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Carousel
+- 
+-
+-
+-
 
----
 
-Happy coding!
+![Carousel](image)
+
+### About Section
+- 
+-
+-
+-
+-
+
+
+![About](image)
+![About](image)
+
+### Gallery Section
+- 
+-
+-
+-
+
+
+![Gallery](image)
+![Gallery](image)
+
+### Quote
+- 
+
+![Quote](image)
+
+### Contact Form
+- 
+-
+-
+
+
+![Contact Form](image)
+
+### Maps
+- 
+-
+
+![Maps](image)
+
+### Info
+- 
+-
+  
+![Info](image)
+
+### Footer
+- 
+-
+-
+-
+
+
+![Footer](image)
+
+### 404 error page
+- 
+-
+-
+
+
+![404 page](image)
+
+## Validation
+
+### HTML Validation
+
+This is about HTML Validation
+<details><summary>All site</summary>
+<img src="">
+</details>
+
+<details><summary>404 error page</summary>
+<img src="">
+</details>
+
+### CSS Validation
+
+This is about CSS Validation
+
+<details><summary>All site</summary>
+<img src="">
+<img src="">
+</details>
+<details><summary>Style.css</summary>
+<img src="">
+</details>
+
+## Testing
+
+### Accessibility
+
+WAVE
+
+<details><summary>See evaluation summary</summary><img src="">
+</details>
+
+### Performance
+
+Google Lighthouse 
+<details><summary>See evaluation summary</summary><img src="">
+</details>
+
+### Performing tests on various devices
+
+The website was tested using Google Chrome Developer Tools Toggle Device Toolbar to simulate viewports of different devices. 
+
+The website was tested on the following devices:
+- 
+-
+-
+
+### Browser compatability
+
+The website was tested on the following browsers:
+- Google Chrome
+- Mozilla Firefox
+
+### Testing user stories
+
+1. As a first time user, I want to find out more about the club
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="docs/user-story-testing/user-story-1.JPG">
+</details>
+
+2. As a first time user, I want to find out if I can join the club if I have never played volleyball before.
+
+
+| **Feature**                      | **Action**                    | **Expected Result**                                                  | **Actual Result** |
+| -------------------------------- | ----------------------------- | -------------------------------------------------------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="docs/user-story-testing/user-story-2.JPG">
+</details>
+
+3. As a first time user, 
+
+| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
+| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+4. As a first time user, 
+
+| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
+| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+5. As a first time user, 
+
+| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
+| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+6. As a first time user, 
+
+| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
+| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+7. As a first time user, 
+
+| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
+| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+8. As a first time user, 
+
+| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
+| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+9. As a first time user, 
+
+| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
+| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+10. As a first time user, 
+
+| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
+| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+11. As a first time user, 
+
+| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
+| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+12. As a first time user, 
+
+| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
+| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+13. As a first time user, 
+
+| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
+| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+14. As a first time user, 
+
+| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
+| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+15. As a first time user, 
+
+| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
+| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+## Bugs
+
+| Bug                                                                                                               | Fix                                                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| 1| 2 |
+| 1| 2 |
+| 1| 2 |                                                               |
+| 1| 2 |
+| 1| 2 |
+| 1| 2 |
+| 1| 2 |
+| 1| 2 |
+| 1| 2 |
+
+
+## Deployment
+
+### GitHub Pages
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left hand menu select Pages
+3. For the source select Branch: main
+4. Once saved, GitHub will refresh and your website will be publishd from GitHub repository
+5. The link to your published website will appear: "Your site is published at *link* "
+
+### Forking the GitHub Repository
+1. Go to the GitHub repository
+2. Click on Fork button in top right corner
+
+### Making a Local Clone
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it
+3. Highlight the "HTTPS" button to clone with HTTPS and copy the link
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone
+
+## Credits
+
+### Images
+[Name](*image*): Information [Name](*link*)
+[Name](*image*): Information [Name](*link*)
+[Name](*image*): Information [Name](*link*)
+[Name](*image*): Information [Name](*link*)
+[Name](*image*): Information [Name](*link*)
+
+
+### Code
+
+-  [name] (link)
+- 
+- 
+- 
+
+
+## Acknowledgements
+
+- 
+- 
+- 
+- 
+ 
