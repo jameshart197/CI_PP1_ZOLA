@@ -108,7 +108,7 @@ footer>div>div {
 /* Hero Image */
 
 #hero-image {
-    background: url('../images/backbar.jpg') repeat center center;
+    background: url('../images/backbar.webp') repeat center center;
     background-size: cover;
     height: 300px;
     width: 100%;
@@ -407,7 +407,7 @@ footer>div>div {
 }
 
 #background-404 {
-    background: url('../images/background-404.jpg') no-repeat center;
+    background: url('../images/background-404.webp') no-repeat center;
     background-size: cover;
     min-height: calc(100vh - 290px);
     text-align: center;
