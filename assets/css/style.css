@@ -215,7 +215,7 @@ footer>div>div {
 /* Menu Page */
 
 .menu-background {
-    background: url('../images/backbar.jpg') no-repeat center center;
+    background: url('../images/backbar.webp') no-repeat center center;
     backdrop-filter: blur(4px);
     background-size: cover;
     width: 100%;
