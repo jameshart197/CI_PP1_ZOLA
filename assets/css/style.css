@@ -146,7 +146,7 @@ footer>div>div {
 /* Panel 3 */
 
 .index-panel3-background {
-    background: url('../images/barbackground.jpg') no-repeat center center;
+    background: url('../images/barbackground.webp') no-repeat center center;
     background-size: cover;
     padding: 0;
     margin: 0;
@@ -295,13 +295,18 @@ footer>div>div {
 
 .whatson-rightside>div {
     width: 100%;
-    background: radial-gradient(circle, rgba(0, 0, 0, 0.9023984593837535) 0%, rgba(42, 42, 42, 0.896796218487395) 100%);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.93) 0%, rgba(36, 36, 36, 0.93) 100%);
     padding: 1em;
 }
 
 .whats-on-container img {
     max-height: 256px;
     max-width: 100%;
+}
+
+.whats-on-container p {
+    font-size: 1.1em;
+    padding: 12px;
 }
 
 #newsletter-container {
