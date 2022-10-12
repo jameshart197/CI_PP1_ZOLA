@@ -124,34 +124,55 @@
 #### Site Owner
 
 14.	As the site owner, I want the user to understand what Zola represents and get an understanding of the bar
-15.	As the site owner, 
-16.	As the site owner, 
-17.	As the site owner, 
-18.	As the site owner, 
-19. As the site owner, 
+15.	As the site owner, I want the user to be able to book a table
+16.	As the site owner, As the site owner I want the user to have a clear understanding of when we are open
+17.	As the site owner, I want my site to provide accessibility where required 
+18.	As the site owner, I want people to subscribe to the newsletter to generate returning custom
+19. As the site owner, I want people to be aware of ongoing events so as to generate more business at those hours. 
 
 ## Design
 
 ### Colour
 
-This is a paragraph about colour.
+For the colour scheme I chose to go with purple, grey, white and black as it matches both the logo of the club and the interior decor. I also feel that these colours provide a professional looking site that is easy to read. When clear contrast was needed, I used cyan to stand out easily from the page. Within the menu element, I used the orange/brown colour that is on the menu in the bar, which blends well with the image of the bar used behind the menu.
+
+<details><summary> Color Palette</summary> <img src="docs/color-palette.png"></details>
 
 ### Fonts
 
-This is a paragraph about fonts.
+I used the Google font Courgette for the main text font as it is similar in style to the name of the bar in the logo, and presents the same feel of elegance and sophistication whilst still being legible. For a fall back font throughout the document I used sans-serif for its compatibility and clarity. In the form area where customers are required to follow instructions I used the Google font Raleway for its clarity and simplicity. I used this Raleway font in the ‘key selling points’ area of the front page to provide contrast and emphasis.
+
 
 ### Structure
 
-This is a paragraph about structure.
+The site is structured in a manner that is at once both clear to understand and intuitive for the user to navigate. This was achieved by placing a clear and recognisable navigation bar at the very top of every page, and making sure the header and footer maintained both consistency and simplicity throughout the site. The site’s logo returns the user to the front page and any keywords that link to other areas of the site are clearly marked. All external links open in a new tab and are recognizable as links by use of the FontAwesome icons for those sites. 
 
-This is a bulleted list about structure:
+The website is divided into four pages and an error 404 page, each of which contains a header and footer with a navigation bar, telephone number and social media links;
 
-- 
-- 
-- 
-- 
-
-This is a sentence about 404 pages
+1. A home/index page that contains;
+  - A captivating hero image
+  - clearly marked sections providing the most important information that the site owner would wish the user to find including;
+    - The ethos of Zola
+    - How to book a table
+  - The key selling points of the bar to encourage custom
+2. A menu page that contains;
+  - Current drink names 
+  - Current drink prices
+  - Current drink recipes
+  - Images of current drinks
+3. A what's on page providing;
+  - Details of current events
+  - Details of current ongoing offers
+  - A subscription form for a newsletter to find out about future events
+4. A contact us page providing;
+  - All contact details of the bar including;
+    - Telephone Number
+    - Email Address
+    - Physical Address
+    - A map of the location embedded on the site
+  - This page also includes contact information for people looking to apply for a job
+ 
+The 404 page is clearly marked with the same header and footer to allow navigation back to the website. It also contains an image related to the theme of the website in a spilling drink. 
 
 ### Wireframes
 
