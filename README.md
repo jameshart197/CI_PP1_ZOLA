@@ -348,41 +348,57 @@ The website consists of a header, footer and four pages as well as a custom 404 
 
 ![404-Page](docs/features/page-404.png)
 
-
-![404 page](image)
-
 ## Validation
 
 ### HTML Validation
 
-This is about HTML Validation
-<details><summary>All site</summary>
-<img src="">
-</details>
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors and no warnings.
 
-<details><summary>404 error page</summary>
-<img src="">
+<details><summary>Index Page</summary>
+<img src="docs/validation/wc3-index.png">
+</details>
+<details><summary>Menu Page</summary>
+<img src="docs/validation/wc3-menu.png">
+</details>
+<details><summary>Whats On? Page</summary>
+<img src="docs/validation/wc3-whats-on.png">
+</details>
+<details><summary>Contact Us Page</summary>
+<img src="docs/validation/wc3-contact-us.png">
+</details>
+<details><summary>404 Error page</summary>
+<img src="docs/validation/wc3-404.png">
 </details>
 
 ### CSS Validation
 
-This is about CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website. The site passes with no errors but brings up a single warning. This warning is simply to tell us that the imported style sheet we use to implement Google Fonts onto the website is not checked by the validation. 
 
-<details><summary>All site</summary>
-<img src="">
-<img src="">
-</details>
-<details><summary>Style.css</summary>
-<img src="">
+<details><summary>CSS Validation</summary>
+<img src="docs/validation/wc3-css.png">
+<img src="docs/validation/wc3-css-warning.png">
 </details>
 
 ## Testing
 
 ### Accessibility
 
-WAVE
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. Each of the pages passes without errors.
 
-<details><summary>See evaluation summary</summary><img src="">
+<details><summary>Wave Evaluation Summary for Index Page</summary>
+<img src="docs/validation/wave-index.png">
+</details>
+<details><summary>Wave Evaluation Summary for Menu Page</summary>
+<img src="docs/validation/wave-menu.png">
+</details>
+<details><summary>Wave Evaluation Summary for Whats On Page</summary>
+<img src="docs/validation/wave-whats-on.png">
+</details>
+<details><summary>Wave Evaluation Summary for Contact Us Page</summary>
+<img src="docs/validation/wave-contact-us.png">
+</details>
+<details><summary>Wave Evaluation Summary for 404 Page</summary>
+<img src="docs/validation/wave-404.png">
 </details>
 
 ### Performance
