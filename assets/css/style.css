@@ -359,6 +359,7 @@ footer>div>div {
 #signup:hover {
     background-color: aqua;
     font-weight: 600;
+    cursor: pointer;
 }
 
 
