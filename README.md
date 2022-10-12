@@ -442,18 +442,21 @@ The website was tested on the following browsers:
 
 ### Testing user stories
 
-1. As a first time user I want to know where the bar is so I can visit
+1. As a first time user I want to know where the bar is so I can visit.
 
 | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| Contact Us; Address Box and map | Navigate to Contact Us | Find Address/Map | Works as expected |
 
-<details><summary>Screenshot</summary>
+<details><summary>Navigate to Contact Us</summary>
 <img src="docs/userstories/navigate-contact-us.png">
-<img src="docs/userstories/opening-times.png">
+</details>
+<details><summary>Find Map/Address</summary>
+<img src="docs/userstories/location.png">
 </details>
 
-2. As a first time user I want to know when the bar opens so I can visit
+
+2. As a first time user I want to know when the bar opens so I can visit.
 
 
 | **Feature**                      | **Action**                    | **Expected Result**                                                  | **Actual Result** |
@@ -464,7 +467,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-2.JPG">
 </details>
 
-3. As a first time user, I want to know the price of the drinks so I can budget accordingly 
+3. As a first time user, I want to know the price of the drinks so I can budget accordingly.
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
@@ -474,7 +477,7 @@ The website was tested on the following browsers:
 <img src="">
 </details>
 
-4. As a first time user, I want to know what drinks there are available so I know I will be able to find something I like
+4. As a first time user, I want to know what drinks there are available so I know I will be able to find something I like.
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
