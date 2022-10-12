@@ -648,16 +648,15 @@ The website was deployed using GitHub Pages by following these steps:
 
 ### Code
 
--  [name] (link)
-- 
-- 
-- 
-
+-  Gradients were created using the code produced by [CSS Gradient](https://cssgradient.io/)
+-  Google Maps were embedded using code from the [Google Maps Platform](https://developers.google.com/maps/documentation/embed/get-started)
+-  Formdump provided by Code Institute within my Newsletter Signup Form
 
 ## Acknowledgements
 
-- 
-- 
-- 
-- 
- 
+This website was assisted in its production by;
+
+- [Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) whose videos I used to learn about display:flex and display:grid
+- Code Institute Slack members who helped with small bugs and testing along the way
+- Readme contents guided by mentor and prior students
+- Friends who tested the website and user stories for me on various devices 
