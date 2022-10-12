@@ -110,7 +110,7 @@
 4. As a first time user, I want to know what drinks there are available so I know I will be able to find something I like
 5. As a first time user, I want to know if I need to book a table for my large group so that I am not disappointed
 6. As a first time user, I want to get a feel for the bar so that I can know what to expect when visiting
-7. As a first time user, As a first time user I want to know if there will be any events on when I visit
+7. As a first time user, I want to know if there will be any events on when I visit
 8. As a first time user, I want to know how I can enquire for more information if I need it
    
 #### Returning visitor
@@ -442,17 +442,18 @@ The website was tested on the following browsers:
 
 ### Testing user stories
 
-1. As a first time user, I want to find out more about the club
+1. As a first time user I want to know where the bar is so I can visit
 
 | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
 | 1 | 2 | 3 | 4 |
 
 <details><summary>Screenshot</summary>
-<img src="docs/user-story-testing/user-story-1.JPG">
+<img src="docs/userstories/navigate-contact-us.png">
+<img src="docs/userstories/opening-times.png">
 </details>
 
-2. As a first time user, I want to find out if I can join the club if I have never played volleyball before.
+2. As a first time user I want to know when the bar opens so I can visit
 
 
 | **Feature**                      | **Action**                    | **Expected Result**                                                  | **Actual Result** |
@@ -463,7 +464,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-2.JPG">
 </details>
 
-3. As a first time user, 
+3. As a first time user, I want to know the price of the drinks so I can budget accordingly 
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
@@ -473,7 +474,7 @@ The website was tested on the following browsers:
 <img src="">
 </details>
 
-4. As a first time user, 
+4. As a first time user, I want to know what drinks there are available so I know I will be able to find something I like
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
@@ -483,7 +484,7 @@ The website was tested on the following browsers:
 <img src="">
 </details>
 
-5. As a first time user, 
+5. As a first time user, I want to know if I need to book a table for my large group so that I am not disappointed
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
@@ -493,7 +494,7 @@ The website was tested on the following browsers:
 <img src="">
 </details>
 
-6. As a first time user, 
+6. As a first time user, I want to get a feel for the bar so that I can know what to expect when visiting
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
@@ -503,7 +504,7 @@ The website was tested on the following browsers:
 <img src="">
 </details>
 
-7. As a first time user, 
+7. As a first time user, I want to know if there will be any events on when I visit
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
@@ -513,7 +514,7 @@ The website was tested on the following browsers:
 <img src="">
 </details>
 
-8. As a first time user, 
+8. As a first time user, I want to know how I can enquire for more information if I need it
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
@@ -523,7 +524,7 @@ The website was tested on the following browsers:
 <img src="">
 </details>
 
-9. As a first time user, 
+9. As a returning user, I want to know if there any special events or offers on that I might be interested in
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
@@ -533,7 +534,7 @@ The website was tested on the following browsers:
 <img src="">
 </details>
 
-10. As a first time user, 
+10. As a returning user, I want to find the telephone number to contact the bar 
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
@@ -543,7 +544,7 @@ The website was tested on the following browsers:
 <img src="">
 </details>
 
-11. As a first time user, 
+11. As a returning user, I want to find a way of ensuring I am informed of any upcoming events or offers 
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
@@ -553,7 +554,7 @@ The website was tested on the following browsers:
 <img src="">
 </details>
 
-12. As a first time user, 
+12. As a returning user, I want to find a way to make my next visit special due to a celebration or special occasion
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
@@ -563,7 +564,7 @@ The website was tested on the following browsers:
 <img src="">
 </details>
 
-13. As a first time user, 
+13. As a returning user, I want to find the bar on social media 
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
@@ -573,7 +574,7 @@ The website was tested on the following browsers:
 <img src="">
 </details>
 
-14. As a first time user, 
+14. As the site owner, I want the user to understand what Zola represents and get an understanding of the bar 
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
@@ -583,7 +584,47 @@ The website was tested on the following browsers:
 <img src="">
 </details>
 
-15. As a first time user, 
+15. As the site owner, I want the user to be able to book a table
+
+| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
+| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+16. As the site owner, As the site owner I want the user to have a clear understanding of when we are open
+
+| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
+| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+17. As the site owner, I want my site to provide accessibility where required
+
+| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
+| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+18. As the site owner, I want people to subscribe to the newsletter to generate returning custom
+
+| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
+| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
+| 1 | 2 | 3 | 4 |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+19. As the site owner, I want people to be aware of ongoing events so as to generate more business at those hours.
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
