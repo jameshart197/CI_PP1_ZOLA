@@ -248,6 +248,7 @@ The website consists of a header, footer and four pages as well as a custom 404 
 ![Footer](docs/features/Footer.png)
 ![Footer on Mobile](docs/features/footer-mobile.png)
 
+## Index Page
 
 ### Hero Image
 
@@ -258,10 +259,45 @@ The website consists of a header, footer and four pages as well as a custom 404 
 
 ![Hero-Image](docs/features/hero-image.png)
 
-### Index Page
+### Information Panels
+
+- Panel containing information on the ethos of the bar and an image of sharing drinks
+- Panel containing information on booking a private booth and an image of the booth mentioned
+- These panels contain the information that the owner believes is most important to the site
+
+![Information Panel 1](docs/features/index-panel-one.png)
+
+- Panel containing Key selling points for the bar
+- Contains a background image of a busy bar
+
+![Information Panel 2](docs/features/index-panel-two.png)
+
+## Menu Page
+
+### Background Image
+- Image is of the backbar, displaying available spirits
+- Image is not the important element so is overlayed with a translucent background for clarity of text
+
+![Backbar Image](assets/images/backbar.webp)
+
+### Menu
+
+- 
+
+## What's On Page
+
+### Happy Hour Advert
+
+### Live Music Advert
+
+### Newspaper Banner
+
+### Newsletter Form
 
 
-### 404 error page
+## Contact Us Page
+
+## 404 error page
 - 
 -
 -
