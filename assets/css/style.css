@@ -356,6 +356,11 @@ footer>div>div {
     border: 5px ridge rgb(53, 52, 52);
 }
 
+#signup:hover {
+    background-color: aqua;
+    font-weight: 600;
+}
+
 
 /* Contact Us */
 

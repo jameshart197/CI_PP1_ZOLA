@@ -282,18 +282,37 @@ The website consists of a header, footer and four pages as well as a custom 404 
 
 ### Menu
 
-- 
+- Grid element containing drink name, recipe, price and a picture of the drink for each drink on the menu
+
+![Menu](docs/features/menu.png)
 
 ## What's On Page
 
 ### Happy Hour Advert
 
+- Text area saying what happy hour is and when
+- Image depicting two drinks to emphasize
+
+![Happy Hour](docs/features/happy-hour.png)
+
 ### Live Music Advert
+
+- Text area saying when the live music takes place
+- Image of live band to emphasize
+
+![Live Music](docs/features/live-music.png)
 
 ### Newspaper Banner
 
+- Headline tag to capture attention
+- Text explanation below of why you should sign up
+
+![Newspaper Banner](docs/features/newsletter-banner.png)
+
 ### Newsletter Form
 
+- Background image depicting a cocktail for style
+- Form elements, required for successful sign-up.
 
 ## Contact Us Page
 
