@@ -620,7 +620,7 @@ The website was deployed using GitHub Pages by following these steps:
 2. On the left hand menu select Pages
 3. For the source select Branch: main
 4. Once saved, GitHub will refresh and your website will be publishd from GitHub repository
-5. The link to your published website will appear: "Your site is published at *link* "
+5. The link to your published website will appear: "Your site is published at (https://jameshart197.github.io/CI_PP1_ZOLA/) "
 
 ### Forking the GitHub Repository
 1. Go to the GitHub repository
@@ -638,11 +638,12 @@ The website was deployed using GitHub Pages by following these steps:
 ## Credits
 
 ### Images
-[Name](*image*): Information [Name](*link*)
-[Name](*image*): Information [Name](*link*)
-[Name](*image*): Information [Name](*link*)
-[Name](*image*): Information [Name](*link*)
-[Name](*image*): Information [Name](*link*)
+
+- [Logo](assets/images/zola-logo.webp): Created on [Canva](https://www.canva.com/en_gb/) by myself.
+- Icons: Icons used throughout the site were taken from [FontAwesome](https://fontawesome.com/)
+- [Map](docs/features/map.png): Taken from [Google Maps](https://www.google.co.uk/maps)
+- [All other images](assets/images/backbar.webp)(assets/images/cocktail2.webp): Obtained from [Pexels](https://www.pexels.com/)
+- [Name](*image*): Information [Name](*link*)
 
 
 ### Code
