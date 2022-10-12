@@ -461,40 +461,49 @@ The website was tested on the following browsers:
 
 | **Feature**                      | **Action**                    | **Expected Result**                                                  | **Actual Result** |
 | -------------------------------- | ----------------------------- | -------------------------------------------------------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| Contact Us; Opening Hours box | Navigate to Contact Us | Find Opening hours box | Works as expected |
 
-<details><summary>Screenshot</summary>
-<img src="docs/user-story-testing/user-story-2.JPG">
+<details><summary>Navigate to Contact Us</summary>
+<img src="docs/userstories/navigate-contact-us.png">
+</details>
+<details><summary>Opening Hours Box</summary>
+<img src="docs/userstories/opening-times.png">
 </details>
 
 3. As a first time user, I want to know the price of the drinks so I can budget accordingly.
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| Menu | Navigate to Menu | Find Drink Prices | Works as expected |
 
-<details><summary>Screenshot</summary>
-<img src="">
+<details><summary>Navigate to Menu</summary>
+<img src="docs/userstories/navigate-menu.png">
+</details>
+<details><summary>Find drink prices</summary>
+<img src="docs/userstories/prices.png">
 </details>
 
 4. As a first time user, I want to know what drinks there are available so I know I will be able to find something I like.
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| 1Menu | Navigate to Menu | Find Drinks List | Works as expected |
 
-<details><summary>Screenshot</summary>
-<img src="">
+<details><summary>Navigate to Menu</summary>
+<img src="docs/userstories/navigate-menu.png">
+</details>
+<details><summary>Find Drinks List</summary>
+<img src="docs/userstories/drinks-list.png">
 </details>
 
 5. As a first time user, I want to know if I need to book a table for my large group so that I am not disappointed
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| Footer Banner | Find information on Bookings | Find Booking Information | Works as expected; footer found on all pages |
 
-<details><summary>Screenshot</summary>
-<img src="">
+<details><summary>Booking Info</summary>
+<img src="docs/userstories/booking-info.png">
 </details>
 
 6. As a first time user, I want to get a feel for the bar so that I can know what to expect when visiting
