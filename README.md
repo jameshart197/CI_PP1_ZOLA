@@ -251,68 +251,15 @@ The website consists of a header, footer and four pages as well as a custom 404 
 
 ### Hero Image
 
-- 
--
--
--
+- Scrolls automatically on larger devices, static for responsiveness and loading times on mobile
+- Immediately captivates the user
+- Immediately tells user the nature of the site (the image is of a bar)
+- Responsive on all devices
 
+![Hero-Image](docs/features/hero-image.png)
 
-![Carousel](image)
+### Index Page
 
-### About Section
-- 
--
--
--
--
-
-
-![About](image)
-![About](image)
-
-### Gallery Section
-- 
--
--
--
-
-
-![Gallery](image)
-![Gallery](image)
-
-### Quote
-- 
-
-![Quote](image)
-
-### Contact Form
-- 
--
--
-
-
-![Contact Form](image)
-
-### Maps
-- 
--
-
-![Maps](image)
-
-### Info
-- 
--
-  
-![Info](image)
-
-### Footer
-- 
--
--
--
-
-
-![Footer](image)
 
 ### 404 error page
 - 
