@@ -403,24 +403,42 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
 
 ### Performance
 
-Google Lighthouse 
-<details><summary>See evaluation summary</summary><img src="">
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. Although I would like to optimise the performance further, the steps required to do so were increasingly complicated. At the next phase of release, increasing performance should be a priority. 
+
+<details><summary>Lighthouse Evaluation for Index Page</summary>
+<img src="docs/validation/lighthouse-index.png">
+</details>
+<details><summary>Lighthouse Evaluation for Menu Page</summary>
+<img src="docs/validation/lighthouse-menu.png">
+</details>
+<details><summary>Lighthouse Evaluation for Whats-On Page</summary>
+<img src="docs/validation/lighthouse-whats-on.png">
+</details>
+<details><summary>Lighthouse Evaluation for Contact-Us</summary>
+<img src="docs/validation/lighthouse-contact-us.png">
+</details>
+<details><summary>Lighthouse Evaluation for 404 Page</summary>
+<img src="docs/validation/lighthouse-404.png">
 </details>
 
 ### Performing tests on various devices
 
-The website was tested using Google Chrome Developer Tools Toggle Device Toolbar to simulate viewports of different devices. 
+The website was tested using Google Chrome Developer Tools Toggle Device Toolbar to simulate viewports of different devices.
+The website was also tested manually on the following devices:
 
-The website was tested on the following devices:
-- 
--
--
+- 26 inch Desktop Monitor
+- Lenovo v15 ada (laptop screen size)
+- iPad Air 4th Gen (tablet screen size)
+- iPhone 11 and Samsung Galaxy S21 (mobile screen size)
+- Galaxy Fold (unusual screen dimensions)
 
 ### Browser compatability
 
 The website was tested on the following browsers:
 - Google Chrome
 - Mozilla Firefox
+- Opera
+- Safari
 
 ### Testing user stories
 
@@ -579,15 +597,19 @@ The website was tested on the following browsers:
 
 | Bug                                                                                                               | Fix                                                                                                                                       |
 | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| 1| 2 |
-| 1| 2 |
-| 1| 2 |                                                               |
-| 1| 2 |
-| 1| 2 |
-| 1| 2 |
-| 1| 2 |
-| 1| 2 |
-| 1| 2 |
+|Footer would not stay attached to the bottom of the page. | Made the body a flex display and then set the flexgrow on body>div to 1 |
+| Google Fonts not working on my pages | Moved import tag to the top of styles.css |
+| Header not working on smaller screen sizes | Changed header to a flex box display |                                                               |
+| Hero Image creating extra space on mobile | Disabled scrolling animation on mobile |
+| Nav bar not highlighting on hover | Container was overlapping the navigation bar, preventing clear mouse space. Fixed by restructuring header |
+| Various floated elements in the whats-on.html and contact-us.html not working responsively. | Converted to flex box display |
+| Grid of menu not working on mobile | Changed the column display for smaller screen sizes - later adjusted this so that the media query applied to larger screens and base code was for mobiles |
+| Images causing performance issues (raised by Lighthouse) | Resized and optimised images using compression to increase performance |
+| Hero Image was overflowing on certain screens | Put Hero image inside a div that was set to 100vw and then set overflow to hidden |
+
+## Secondary Workspace
+
+During the project I struggled with re-construction of certain elements when it came to making the site responsive. I realised during this process that I had made some fundamental errors and over-complicated the code in the first creation of the site. I found it easier to add blocks of the current site to a new workspace, omitting anything that felt unnecessary or that I wasn’t 100% sure of its functionality. During this process I was able to clean up a lot of the code and reformat a lot of the css document especially. When I had finished adding to the new workspace and styling it, I was then able to overwrite the original workspace with the documents from the secondary workspace. As such, I have included a link to the secondary workspace for an overview of commits and changes. [Secondary Workspace Link](https://github.com/jameshart197/CI_PP1_ZOLA_BAR)
 
 
 ## Deployment
