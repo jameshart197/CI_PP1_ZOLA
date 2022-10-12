@@ -219,19 +219,38 @@ The 404 page is clearly marked with the same header and footer to allow navigati
 
 ## Features
 
-The website consists of four sections and ten features.
+The website consists of a header, footer and four pages as well as a custom 404 page. 
+
+### Header 
+
+- Featured on all pages of the website
+- Contains Brand Name and Slogan
+- Contains Logo and Navigation bar
+
+![Header](docs/features/Header.png)
 
 ### Logo and Navigation Bar
-- 
--
--
--
+
+- Logo returns user to the Home page
+- Navigation bar takes user to the Home, Menu, Whats On? and Contact Us pages.
+- Navigation bar is fully responsive and condenses on mobile screens
+- Navigation bar displays current page in black
+- Navigation bar displays box around hovered options
+
+![Header on Mobile](docs/features/header-mobile.png)
+
+### Footer
+
+- Featured on all pages of the website
+- Contains Social Media Links (Facebook, Twitter and Instagram)
+- Contains Booking Banner for enquiries and bookings and telephone number
+
+![Footer](docs/features/Footer.png)
+![Footer on Mobile](docs/features/footer-mobile.png)
 
 
-![Logo and navbar](image)
-![Logo and navbar](image)
+### Hero Image
 
-### Carousel
 - 
 -
 -
