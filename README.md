@@ -1,7 +1,7 @@
 # Zola Bar <img src="assets/images/zola-logo.webp" style="width: 40px;height:40px;">
 
 
-**Developer: Aleksandra Haniok**
+**Developer: James Hart**
 
 ![Mockup image](docs/responsive-mockup.png)
 
@@ -43,58 +43,87 @@
 
 ### User Goals
 
-- 
--
--
+- Find a bar to go to on an evening out that creates a social atmosphere.
+- Find out what time Zola is open
+- Find out where Zola is
+- Book a private table/booth for the evening
+- See the menu and the drink prices
+- Find out more information about who Zola are and what they do
+- Find out about any events that might be going on at the bar
+- See any offers that might currently be running
+- Sign up to be updated on upcoming events and offers
+- Apply for a job at Zola
+- Enquire for more information
 
 ### Site Owner Goals
 
-- 
--
--
+- Promote the bar to generate more business
+- Get guaranteed income through bookings
+- Provide information so people know what to expect when they arrive
+- Generate extra interest at certain hours through offers/events
+- Ensure enquiries are directed to the right people
+- Provide as much information as possible so people do not need to telephone/email/ask on site for extra information
+- Provide contact details to prospective staff for hiring purposes
+- Ensure customers return through the use of newsletters and offers
 
 
 ## User Experience
 
 ### Target Audience
 
--
--
--
+- Regular bar goings and social drinkers in the area
+- People interested in cocktails
+- People interested in live music
+- People looking for a place to meet up socially in the area
+- Customers looking to return to the bar
+- People who may be looking for a job in a bar
+- People looking to book a private event or celebration
 
 
 ### User Requirements and Expectations
 
-- 
--
--
--
+- Easy navigation throughout the site
+- Intuitive usage of the website
+- Clear and succinct information presented in a manner that is easy to read
+- Information that is easy to find
+- All links take you where you expect to go
+- Feedback is provided when interacting with the website
+  - Links respond to being hovered over
+  - Forms confirm that information is correct/incorrect
+  - If a mistake is made during navigation a clear 404 page helps you return to the site
+- The site provides accessiblity to those who need it in a clear and precise manner
+- The site is visually appealing on all devices
+- It is easy to achieve simple goals in a small number of steps such as; 
+  - Contacting the bar
+  - Booking a table
+  - Signing up to a newsletter
+  - Finding opening hours
 
 
 ### User Stories
 
 #### First-time users
 
-1. As a first time user, 
-2. As a first time user, 
-3. As a first time user, 
-4. As a first time user, 
-5. As a first time user, 
-6. As a first time user, 
-7. As a first time user, 
-8. As a first time user, 
+1. As a first time user, I want to know where the bar is so that I can visit
+2. As a first time user, I want to know when the bar opens so that I can visit
+3. As a first time user, I want to know the price of the drinks so I can budget accordingly
+4. As a first time user, I want to know what drinks there are available so I know I will be able to find something I like
+5. As a first time user, I want to know if I need to book a table for my large group so that I am not disappointed
+6. As a first time user, I want to get a feel for the bar so that I can know what to expect when visiting
+7. As a first time user, As a first time user I want to know if there will be any events on when I visit
+8. As a first time user, I want to know how I can enquire for more information if I need it
    
 #### Returning visitor
 
-9. As a returning user, 
-10. As a returning user, 
-11. As a returning user, 
-12. As a returning user, 
-13.  As a returning user, 
+9. As a returning user, I want to know if there any special events or offers on that I might be interested in
+10. As a returning user, I want to find the telephone number to contact the bar
+11. As a returning user, I want to find a way of ensuring I am informed of any upcoming events or offers
+12. As a returning user, I want to find a way to make my next visit special due to a celebration or special occasion
+13.  As a returning user, I want to find the bar on social media
 
 #### Site Owner
 
-14.	As the site owner, 
+14.	As the site owner, I want the user to understand what Zola represents and get an understanding of the bar
 15.	As the site owner, 
 16.	As the site owner, 
 17.	As the site owner, 
