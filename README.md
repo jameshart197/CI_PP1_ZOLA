@@ -313,13 +313,40 @@ The website consists of a header, footer and four pages as well as a custom 404 
 
 - Background image depicting a cocktail for style
 - Form elements, required for successful sign-up.
+- Gives feedback to user when sign-up button is hovered
+
+![Newsletter Form](docs/features/newsletter-form.png)
 
 ## Contact Us Page
 
+- Background image of bar from the outside
+
+![Bar Image](assets/images/contact-us-background-bar.webp)
+
+- Embedded map of location
+
+![Map](docs/features/map.png)
+
+- Booking banner containing telephone number and email address
+
+![Booking Banner](docs/features/booking-banner.png)
+
+- Opening Times table
+
+![Opening Times](docs/features/opening-times.png)
+
+- Physical Address
+- Information for people looking to apply for a job
+
+![Address Box](docs/features/address.png)
+
 ## 404 error page
-- 
--
--
+
+- Image related to both bar and to indicate potential mistake
+- Navigation bar in Header to return to main site
+- Message explaining that the resource cannot be found and the error code
+
+![404-Page](docs/features/page-404.png)
 
 
 ![404 page](image)
