@@ -177,16 +177,16 @@ The 404 page is clearly marked with the same header and footer to allow navigati
 ### Wireframes
 
 <details><summary>Desktop and Laptop Screens</summary>
-<img src="">
-<img src="">
-<img src="">
-<img src="">
+<img src="docs/wireframes/index-desktop.png">
+<img src="docs/wireframes/menu-desktop.png">
+<img src="docs/wireframes/whats-on-desktop.png">
+<img src="docs/wireframes/contact-us-desktop.png">
 </details>
 <details><summary>Mobile Screens</summary>
-<img src="">
-<img src="">
-<img src="">
-<img src="">
+<img src="docs/wireframes/index-mobile.png">
+<img src="docs/wireframes/menu-mobile.png">
+<img src="docs/wireframes/whats-on-mobile.png">
+<img src="docs/wireframes/whats-on-mobile.png">
 </details>
 
 ## Technologies Used
@@ -198,19 +198,25 @@ The 404 page is clearly marked with the same header and footer to allow navigati
 
 ### Frameworks, Libraries & Tools
 
+- [Adobe Color](https://color.adobe.com/) was used to create the colour scheme mock-up you can see in this README.md file.
 - [Am I Responsive](http://ami.responsivedesign.is/) was used to create the multi-device mock-up you can see at the start of this README.md file.
-- [Balsamiq](https://balsamiq.com/) to create the projects wireframes
-- [Bootstrap v5.1.3](https://getbootstrap.com/)
-- [Favicon.io](https://favicon.io) for making the site favicon
-- [Font Awesome](https://fontawesome.com/) - Icons from Font Awesome were used throughout the site.
-- [Git](https://git-scm.com/) was used for version control within VSCode to push the code to GitHub.
-- [GitHub](https://github.com/) was used as a remote repository to store project code.
-- [Google Fonts](https://fonts.google.com/)
-- [Google Maps](https://www.google.com/maps) were used to create the embedded map with location pins
-- [Pixabay.com](Pixabay.com) was used for pictures
-- [Remove.bg](https://www.remove.bg/) was used to remove background on logos
-- [WC3 Validator](https://validator.w3.org/), [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/), [Wave Validator](https://wave.webaim.org/), [Lighthouse](https://developers.google.com/web/tools/lighthouse/) and [Am I Responsive](http://ami.responsivedesign.is/) were all used to test the website
-  
+- [Am I Responsive](http://ami.responsivedesign.is/) was used to test the responsiveness of the website.
+- [Balsamiq](https://balsamiq.com/) was used to create the wireframes for the project.
+- [Canva](https://www.canva.com/en_gb/) was used to create the logo for the site.
+- [CSS Gradient](https://cssgradient.io/) was used to create gradients within the site backgrounds.
+- [Favicon.io](https://favicon.io/) was used to make the favicon for the website. 
+- [Font Awesome](https://fontawesome.com/) was used to create recognisable icons throughout the site.
+- [Git](https://git-scm.com/) was used for version control, pushing the code to Github.
+- [GitHub](https://github.com/) was used for remote storage of the repository for the project code.
+- [Google Fonts](https://fonts.google.com/) were used to create the desired styling of text.
+- [Google Maps](https://www.google.com/maps) was used to create the embedded map on the contact-us page.
+- [Greenshot](https://getgreenshot.org/) was used to create the screenshots in this README.md
+- [Pexels](https://www.pexels.com/) was used to find copyright-free pictures that matched the site design.
+- [WC3 Validator](https://validator.w3.org/) was used to test the HTML code for the website.
+- [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/) was used to test the CSS code for the website. 
+- [Wave Validator](https://wave.webaim.org/) was used to test the accessibility of the website. 
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to test the performance of the website. 
+
 ## Features
 
 The website consists of four sections and ten features.
