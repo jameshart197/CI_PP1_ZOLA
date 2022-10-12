@@ -510,60 +510,78 @@ The website was tested on the following browsers:
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| Index Page; Sharing Drinks and Key Selling Points panels | See information clearly on index panel | Find information about the bar | Works as expected, information clearly presented |
 
-<details><summary>Screenshot</summary>
-<img src="">
+<details><summary>Bar Ethos Information</summary>
+<img src="docs/userstories/share-drinks.png">
+</details>
+<details><summary>Key Selling Points Panel</summary>
+<img src="docs/userstories/selling-points.png">
 </details>
 
 7. As a first time user, I want to know if there will be any events on when I visit
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| What's On Page; Current Events | Navigate to What's On Page | Find information on current events | Works as expected |
 
-<details><summary>Screenshot</summary>
-<img src="">
+<details><summary>Navigate to Whats On Page</summary>
+<img src="docs/userstories/navigate-whats-on.png">
+</details>
+<details><summary>Current Events</summary>
+<img src="docs/userstories/current-events.png">
 </details>
 
 8. As a first time user, I want to know how I can enquire for more information if I need it
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| Contact Us; Contact Details | Navigate to Contact Us Page | Find telephone number/email address | Works as expected |
 
-<details><summary>Screenshot</summary>
-<img src="">
+<details><summary>Navigate to Contact Us Page</summary>
+<img src="docs/userstories/navigate-contact-us.png">
+</details>
+<details><summary>Contact Details</summary>
+<img src="docs/userstories/contact-details.png">
 </details>
 
 9. As a returning user, I want to know if there any special events or offers on that I might be interested in
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| What's On; Current Events | Navigate to What's On Page | Find information on current events | Works as expected |
 
-<details><summary>Screenshot</summary>
-<img src="">
+<details><summary>Navigate to Whats On Page</summary>
+<img src="docs/userstories/navigate-whats-on.png">
+</details>
+<details><summary>Current Events</summary>
+<img src="docs/userstories/current-events.png">
 </details>
 
 10. As a returning user, I want to find the telephone number to contact the bar 
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| Contact Us; Opening Hours box | Navigate to Contact Us | Find Contact Details | Works as expected |
 
-<details><summary>Screenshot</summary>
-<img src="">
+<details><summary>Navigate to Contact Us</summary>
+<img src="docs/userstories/navigate-contact-us.png">
+</details>
+<details><summary>Contact Details</summary>
+<img src="docs/userstories/contact-details.png">
 </details>
 
 11. As a returning user, I want to find a way of ensuring I am informed of any upcoming events or offers 
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| Whats On; Newsletter Subscription | Navigate to What's On Page | Find place to Subscribe to Newsletter | Works as expected, form is self-explanatory and clear |
 
-<details><summary>Screenshot</summary>
-<img src="">
+<details><summary>Navigate to Whats On Page</summary>
+<img src="docs/userstories/navigate-whats-on.png">
+</details>
+<details><summary>Newsletter Subscription Form</summary>
+<img src="docs/userstories/newsletter-form.png">
 </details>
 
 12. As a returning user, I want to find a way to make my next visit special due to a celebration or special occasion
