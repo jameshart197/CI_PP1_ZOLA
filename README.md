@@ -43,7 +43,7 @@
 
 ### User Goals
 
-- Find a bar to go to on an evening out that creates a social atmosphere.
+- Find a bar to go to on an evening out that creates a social atmosphere
 - Find out what time Zola is open
 - Find out where Zola is
 - Book a private table/booth for the evening
@@ -62,7 +62,7 @@
 - Provide information so people know what to expect when they arrive
 - Generate extra interest at certain hours through offers/events
 - Ensure enquiries are directed to the right people
-- Provide as much information as possible so people do not need to telephone/email/ask on site for extra information
+- Provide as much information as possible so people do not need to telephone/email/ask on premises for extra information
 - Provide contact details to prospective staff for hiring purposes
 - Ensure customers return through the use of newsletters and offers
 
@@ -75,7 +75,7 @@
 - People interested in cocktails
 - People interested in live music
 - People looking for a place to meet up socially in the area
-- Customers looking to return to the bar
+- Previous -Customers looking to return to the bar
 - People who may be looking for a job in a bar
 - People looking to book a private event or celebration
 
@@ -128,15 +128,15 @@
 16.	As the site owner, As the site owner I want the user to have a clear understanding of when we are open
 17.	As the site owner, I want my site to provide accessibility where required 
 18.	As the site owner, I want people to subscribe to the newsletter to generate returning custom
-19. As the site owner, I want people to be aware of ongoing events so as to generate more business at those hours. 
+19. As the site owner, I want people to be aware of ongoing events so as to generate more business at those hours 
 
 ## Design
 
 ### Colour
 
-For the colour scheme I chose to go with purple, grey, white and black as it matches both the logo of the club and the interior decor. I also feel that these colours provide a professional looking site that is easy to read. When clear contrast was needed, I used cyan to stand out easily from the page. Within the menu element, I used the orange/brown colour that is on the menu in the bar, which blends well with the image of the bar used behind the menu.
+For the colour scheme I chose to go with purple, grey, white and black as it matches both the logo of the club and the interior decor. I also feel that these colours provide a professional looking site that is easy to read. When clear contrast was needed, I used cyan to stand out easily from the page. Within the menu element, I used the orange/brown colour that is on the menu in the bar which blends well with the image of the bar used behind the menu.
 
-<details><summary> Color Palette</summary> <img src="docs/color-palette.png"></details>
+<details><summary> Colour Palette</summary> <img src="docs/color-palette.png"></details>
 
 ### Fonts
 
@@ -149,22 +149,22 @@ The site is structured in a manner that is at once both clear to understand and 
 
 The website is divided into four pages and an error 404 page, each of which contains a header and footer with a navigation bar, telephone number and social media links;
 
-1. A home/index page that contains;
+1. A Home/Index page that contains;
   - A captivating hero image
-  - clearly marked sections providing the most important information that the site owner would wish the user to find including;
+  - Clearly marked sections providing the most important information that the site owner would wish the user to find including;
     - The ethos of Zola
     - How to book a table
   - The key selling points of the bar to encourage custom
-2. A menu page that contains;
+2. A Menu page that contains;
   - Current drink names 
   - Current drink prices
   - Current drink recipes
   - Images of current drinks
-3. A what's on page providing;
+3. A What's On? page providing;
   - Details of current events
   - Details of current ongoing offers
   - A subscription form for a newsletter to find out about future events
-4. A contact us page providing;
+4. A Contact Us page providing;
   - All contact details of the bar including;
     - Telephone Number
     - Email Address
@@ -263,7 +263,7 @@ The website consists of a header, footer and four pages as well as a custom 404 
 
 - Panel containing information on the ethos of the bar and an image of sharing drinks
 - Panel containing information on booking a private booth and an image of the booth mentioned
-- These panels contain the information that the owner believes is most important to the site
+- These panels contain the information that the owner wants the user to see immediately
 
 ![Information Panel 1](docs/features/index-panel-one.png)
 
@@ -312,7 +312,7 @@ The website consists of a header, footer and four pages as well as a custom 404 
 ### Newsletter Form
 
 - Background image depicting a cocktail for style
-- Form elements, required for successful sign-up.
+- Form elements, required for successful sign-up
 - Gives feedback to user when sign-up button is hovered
 
 ![Newsletter Form](docs/features/newsletter-form.png)
@@ -487,7 +487,7 @@ The website was tested on the following browsers:
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1Menu | Navigate to Menu | Find Drinks List | Works as expected |
+| Menu | Navigate to Menu | Find Drinks List | Works as expected |
 
 <details><summary>Navigate to Menu</summary>
 <img src="docs/userstories/navigate-menu.png">
@@ -562,7 +562,7 @@ The website was tested on the following browsers:
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| Contact Us; Opening Hours box | Navigate to Contact Us | Find Contact Details | Works as expected |
+| Contact Us; Telephone Number | Navigate to Contact Us | Find Contact Details | Works as expected |
 
 <details><summary>Navigate to Contact Us</summary>
 <img src="docs/userstories/navigate-contact-us.png">
@@ -646,8 +646,6 @@ The website was tested on the following browsers:
 
 17. As the site owner, I want my site to provide accessibility where required
 
-| **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
-| --------------------------- | ----------------------------- | ----------------------- | ----------------- |
 - Accessibility  is demonstrated by the site's Wave evaluation; 
 
 <details><summary>Wave Evaluation Summary for Index Page</summary>
@@ -696,8 +694,8 @@ The website was tested on the following browsers:
 
 | Bug                                                                                                               | Fix                                                                                                                                       |
 | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-|Footer would not stay attached to the bottom of the page. | Made the body a flex display and then set the flexgrow on body>div to 1 |
-| Google Fonts not working on my pages | Moved import tag to the top of styles.css |
+|Footer would not stay attached to the bottom of the page. | Made the body a flex display with a height of 100vh and then set the flexgrow on body>div to 1 |
+| Google Fonts not working on my pages | Placed import tag at the top of styles.css |
 | Header not working on smaller screen sizes | Changed header to a flex box display |                                                               |
 | Hero Image creating extra space on mobile | Disabled scrolling animation on mobile |
 | Nav bar not highlighting on hover | Container was overlapping the navigation bar, preventing clear mouse space. Fixed by restructuring header |
@@ -741,8 +739,7 @@ The website was deployed using GitHub Pages by following these steps:
 - [Logo](assets/images/zola-logo.webp): Created on [Canva](https://www.canva.com/en_gb/) by myself.
 - Icons: Icons used throughout the site were taken from [FontAwesome](https://fontawesome.com/)
 - [Map](docs/features/map.png): Taken from [Google Maps](https://www.google.co.uk/maps)
-- [All other images](assets/images/backbar.webp)(assets/images/cocktail2.webp): Obtained from [Pexels](https://www.pexels.com/)
-- [Name](*image*): Information [Name](*link*)
+- All other images: Obtained from [Pexels](https://www.pexels.com/)
 
 
 ### Code
