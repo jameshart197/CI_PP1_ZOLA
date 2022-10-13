@@ -63,21 +63,39 @@
             </nav>
         </div>
     </header>
+
+    <!-- This container has the background image, inside which is a container with display:flex to contain relevant boxes -->
     <div class="contact-us-background">
         <div class="contact-us-container">
+
+            <!-- The page is split into two divs, leftside and rightside, for responsive adjustment and to make later updates simpler -->
+
             <div class="contact-leftside">
+
+                <!-- All contact tiles are styled the same so each element is placed inside a div with the class "contact-tile"-->
+
                 <div class="contact-tile">
                     <div>
                         <h2>Book a reservation for a private booth at 07777 777 777</h2>
                         <h2>Or make an enquiry by email at info@zola.co.uk</h2>
                     </div>
                 </div>
+
+                <!-- The map is not a contact tile as it has no background - The width of this div is the only inline styling present
+                so as to demonstrate the full dimensions of the iframe in the same place within the code -->
+
                 <div style="width: 100%">
                     <iframe height="450" id="location-map" src="https://bit.ly/3RZvftf"
                         title="Map of London pinpointing location of bar"></iframe>
                 </div>
             </div>
+
+            <!-- Right side container -->
+
             <div class="contact-rightside">
+
+                <!-- Opening times are a table that can easily be adjusted -->
+
                 <div class="contact-tile" id="opening-times">
                     <div>
                         <h2>Opening Times</h2>
@@ -113,6 +131,9 @@
                         </table>
                     </div>
                 </div>
+
+                <!-- Address is a series of h3s for styling purposes -->
+
                 <div class="contact-tile">
                     <div id="address">
                         <h2>Get in Touch!</h2>
