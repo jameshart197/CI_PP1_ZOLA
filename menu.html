@@ -64,8 +64,17 @@
             </nav>
         </div>
     </header>
+
+    <!-- Background image is a single div containing all other elements -->
+
     <div class="menu-background">
+
+        <!-- The menu itself is a grid container with a background that is more opaque on smaller screens -->
+
         <div class="menu-container">
+            
+            <!-- Each cocktail is divided into a name, recipe, image and price. The name and recipe are in the same div. -->
+            
             <div class="menu-cocktail">
                 <h2>Blue Paradise</h2>
                 <p>A smooth iced cocktail with a rim of sugar blending Vodka, Blue Curacao, Lime and Sugar.</p>
@@ -74,6 +83,10 @@
                 <img src="assets/images/cocktail.webp" alt="Blended blue cocktail in a martini glass">
             </div>
             <div class="menu-price">£12</div>
+
+            <!-- Div with class "menu-break" is used to create binder down the center of the grid on larger screens
+            This element is hidden on smaller screens -->
+
             <div class="menu-break"></div>
             <div class="menu-cocktail">
                 <h2>Sun-Kissed Strawberry</h2>
