@@ -588,80 +588,108 @@ The website was tested on the following browsers:
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| Your Events panel in the index page | Follow instructions in the panel to be lead to Contact Us Page | Find details of what can be done for celebrations or occasions and telephone number to book or enquire | Works as expected, panel contains internal link to Contact Us that gives feedback and works |
 
-<details><summary>Screenshot</summary>
-<img src="">
+<details><summary>Your Events Panel</summary>
+<img src="docs/userstories/your-events.png">
 </details>
+<details><summary>Contact Details</summary>
+<img src="docs/userstories/contact-details.png">
+</details>
+
 
 13. As a returning user, I want to find the bar on social media 
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| Social Links in Footer | Within the footer, find social links and open | Proceed to site's social media sites | Works as expected, links open in a new tab. (These are placeholder facebook/instagram/twitter links as the bar does not truly exist) |
 
-<details><summary>Screenshot</summary>
-<img src="">
+<details><summary>Footer Socials</summary>
+<img src="docs/userstories/social-links.png">
 </details>
 
 14. As the site owner, I want the user to understand what Zola represents and get an understanding of the bar 
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| Index page ‘Sharing Drinks’ and ‘Key Selling Points’ panel | See information clearly on index information panels | Find information about the bar | Works as expected; information clearly presented |
 
-<details><summary>Screenshot</summary>
-<img src="">
+<details><summary>Sharing Drinks Panel</summary>
+<img src="docs/userstories/share-drinks.png">
+</details>
+<details><summary>Key Selling Points Panel</summary>
+<img src="docs/userstories/selling-points.png">
 </details>
 
 15. As the site owner, I want the user to be able to book a table
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| Footer Banner | Find information on Bookings | Find Booking Information | Works as expected; footer found on all pages |
 
-<details><summary>Screenshot</summary>
-<img src="">
+<details><summary>Booking Info</summary>
+<img src="docs/userstories/booking-info.png">
 </details>
 
 16. As the site owner, As the site owner I want the user to have a clear understanding of when we are open
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| Contact Us; Opening Hours box | Navigate to Contact Us | Find Opening hours box | Works as expected |
 
-<details><summary>Screenshot</summary>
-<img src="">
+<details><summary>Navigate to Contact Us</summary>
+<img src="docs/userstories/navigate-contact-us.png">
+</details>
+<details><summary>Opening Hours Box</summary>
+<img src="docs/userstories/opening-times.png">
 </details>
 
 17. As the site owner, I want my site to provide accessibility where required
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+- Accessibility  is demonstrated by the site's Wave evaluation; 
 
-<details><summary>Screenshot</summary>
-<img src="">
+<details><summary>Wave Evaluation Summary for Index Page</summary>
+<img src="docs/validation/wave-index.png">
+</details>
+<details><summary>Wave Evaluation Summary for Menu Page</summary>
+<img src="docs/validation/wave-menu.png">
+</details>
+<details><summary>Wave Evaluation Summary for Whats On Page</summary>
+<img src="docs/validation/wave-whats-on.png">
+</details>
+<details><summary>Wave Evaluation Summary for Contact Us Page</summary>
+<img src="docs/validation/wave-contact-us.png">
+</details>
+<details><summary>Wave Evaluation Summary for 404 Page</summary>
+<img src="docs/validation/wave-404.png">
 </details>
 
 18. As the site owner, I want people to subscribe to the newsletter to generate returning custom
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| Whats On; Newsletter Subscription | Navigate to What's On Page | Find place to Subscribe to Newsletter | Works as expected, form is self-explanatory and clear |
 
-<details><summary>Screenshot</summary>
-<img src="">
+<details><summary>Navigate to Whats On Page</summary>
+<img src="docs/userstories/navigate-whats-on.png">
+</details>
+<details><summary>Newsletter Subscription Form</summary>
+<img src="docs/userstories/newsletter-form.png">
 </details>
 
 19. As the site owner, I want people to be aware of ongoing events so as to generate more business at those hours.
 
 | **Feature**                 | **Action**                    | **Expected Result**     | **Actual Result** |
 | --------------------------- | ----------------------------- | ----------------------- | ----------------- |
-| 1 | 2 | 3 | 4 |
+| What's On Page; Current Events | Navigate to What's On Page | Find information on current events | Works as expected |
 
-<details><summary>Screenshot</summary>
-<img src="">
+<details><summary>Navigate to Whats On Page</summary>
+<img src="docs/userstories/navigate-whats-on.png">
+</details>
+<details><summary>Current Events</summary>
+<img src="docs/userstories/current-events.png">
 </details>
 
 ## Bugs
