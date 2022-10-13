@@ -19,17 +19,29 @@
 </head>
 
 <body>
-    <header>
+
+     <!-- Header -->
+    
+     <header>
         <div>
             <a href="index.html" id="logo-anchor"><img src="assets/images/zola-logo.webp" alt="The zola logo"
                     id="logo"></a>
         </div>
-        <div>
+        
+        <!-- Main Title -->
+         
+         <div>
             <h1>ZOLA</h1>
         </div>
+
+        <!-- Slogan -->
+
         <div>
             <h2>Share Drinks, Share Memories...</h2>
         </div>
+        
+        <!-- Navigation Bar - includes "current" class for current page -->
+        
         <div>
             <nav>
                 <ul id="navbar">
@@ -49,10 +61,17 @@
             </nav>
         </div>
     </header>
+    
+    <!-- Hero Image contained within a div sized to viewport width 100 for overflow purposes -->
+    
     <div id="hero-image-viewport">
         <div id="hero-image">
         </div>
     </div>
+
+    <!-- First Index Panel, split into two sections each with separate classes; 
+        One for a black background and One for a grey one-->
+
     <div class="index-panel black-background">
         <div>
             <h2>Share Drinks</h2>
@@ -70,6 +89,9 @@
             <img src="assets/images/sharing-drinks.webp" alt="A couple sharing drinks">
         </div>
     </div>
+
+    <!-- Grey Panel -->
+
     <div class="index-panel grey-background">
         <div>
             <img src="assets/images/private-booth.webp" alt="An example of a private booth available for hire">
@@ -85,6 +107,11 @@
                 to telephone with your enquiries, we try to accommodate all requests where possible.</p>
         </div>
     </div>
+    
+    <!-- Index Panel containing Key Selling Points with a title at the top; 
+        These elements require separate divs as they have individual backgrounds 
+        Icons from FontAwesome highlight each selling point -->
+    
     <div class="index-panel3-background">
         <div id="index-titlebox">
             <h2>What makes Zola so special?</h2>
@@ -133,7 +160,14 @@
             </div>
         </div>
     </div>
+
+    <!-- Footer -->
+
     <footer>
+        
+        <!-- Social Media Links, each opening in a new tab, seperate divs are required
+        both for responsiveness and due to each having an individual background -->
+        
         <div>
             <div>
                 <a href="https://facebook.com" target="_blank">
@@ -154,11 +188,17 @@
                 </a>
             </div>
         </div>
+
+        <!-- Booking Banner containing telephone number, centered in CSS -->
+
         <div>
             <h2>For private hire, bookings of over 12 people or more information, please
                 telephone on 07777 777 777</h2>
         </div>
     </footer>
+
+    <!-- Script for FontAwesome Icons -->
+
     <script src="https://kit.fontawesome.com/86633e9820.js" crossorigin="anonymous"></script>
 </body>
 
