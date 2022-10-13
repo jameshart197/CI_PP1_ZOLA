@@ -61,10 +61,20 @@
             </nav>
         </div>
     </header>
+
+    <!-- Background image is a containing div of its own -->
+
     <div id="whats-on-background">
+
+        <!-- All content is placed in a containing div with flex display, which in turn contains a left and right side div with flex display 
+        This allows for maximum responsiveness and quick restyling where required -->
+
         <div class="whats-on-container">
             <div class="whatson-leftside">
-                <div>
+
+                <!-- This is the current Happy Hour offer, containing an image and a text block -->
+
+                    <div>
                     <div>
                         <img src="assets/images/happy-hour.webp" alt="Two cocktails on a bar table">
                     </div>
@@ -75,6 +85,9 @@
                         <h3>Monday to Thursday</h3>
                     </div>
                 </div>
+                
+                <!-- This is the current Live Music event, containing an image and a text block -->
+                
                 <div>
                     <div>
                         <h2>Live Music</h2>
@@ -87,6 +100,9 @@
                 </div>
             </div>
             <div class="whatson-rightside">
+                
+                <!-- This banner grabs the user's attention to sign up to the newsletter -->
+                
                 <div>
                     <div>
                         <h2>Stay ahead of the curve!</h2>
@@ -97,8 +113,15 @@
                             entered into a raffle for a chance to win a perfect night for you and up to six others!</p>
                     </div>
                 </div>
+
+                <!-- This newsletter container contains the background form image and the relevant form items -->
+
                 <div id="newsletter-container">
                     <div id="newsletter-form-image">
+
+                        <!-- The form contains required elements to ensure it is filled out correctly, including elements that can only be filled with
+                        the correct information type such as email and date inputs -->
+                        
                         <form id="newsletter-form"  action="https://formdump.codeinstitute.net" method="POST">
                             <label for="firstname">First Name
                                 <input id="firstname" type="text" required>
