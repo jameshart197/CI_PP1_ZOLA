@@ -24,10 +24,20 @@ body>div {
     flex-grow: 1;
 }
 
+
+body p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding: 4px;
+    line-height: 1.5em;
+}
+
 /* Header and Footer */
 
 #logo {
     max-height: 96px;
+    border: 2px solid white;
+    margin: 12px;
 }
 
 header,
@@ -42,11 +52,8 @@ footer {
 }
 
 header h1 {
-    font-size: xxx-large;
-    font-weight: 700;
-    letter-spacing: 4px;
-    margin: 0;
-    padding-right: 1em;
+    /* this element is only for screen readers */
+    display: none;
 }
 
 /* navigation bar */
@@ -143,6 +150,7 @@ footer>div>div {
 
 .index-panel>div {
     text-align: center;
+    padding: 3em;
 }
 
 .index-panel img {
@@ -163,8 +171,7 @@ footer>div>div {
 /* Panel 3 */
 
 .index-panel3-background {
-    background: url('../images/barbackground.webp') no-repeat center center;
-    background-size: cover;
+background-color: black;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -175,7 +182,7 @@ footer>div>div {
 }
 
 #index-titlebox h2 {
-    background: linear-gradient(77deg, rgba(17, 0, 36, 0.6951155462184874) 0%, rgba(109, 4, 237, 0.700717787114846) 50%, rgba(37, 11, 97, 0.7035189075630253) 100%);
+    background: linear-gradient(70deg, #5b3b71 20%, rgba(60, 60, 60, 0.9) 50%, #5b3b71 80%);
     max-width: 33%;
     margin: 0 auto;
     padding: 1.5em;
@@ -204,24 +211,16 @@ footer>div>div {
     font-size: 140%;
 }
 
-.index-panel3 p {
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    padding: 4px;
-}
-
 .index-panel3>div {
-    background: linear-gradient(77deg, rgba(17, 0, 36, 0.6951155462184874) 0%, rgba(109, 4, 237, 0.700717787114846) 50%, rgba(37, 11, 97, 0.7035189075630253) 100%);
+    background: linear-gradient(70deg, #5b3b71 20%, rgba(60, 60, 60, 0.9) 50%, #5b3b71 80%);
     padding: 1.5em;
     border-radius: 12px;
 }
 
 .index-panel3 a {
     text-decoration: none;
-    text-decoration: underline;
     color: white;
-    font-size: 120%;
-    font-style: italic;
+    font-weight: 700;
     padding: 2px;
 }
 
