@@ -82,8 +82,7 @@ header h1 {
 }
 
 #navbar a:hover {
-    border: 2px solid black;
-    padding: 4px;
+    outline: 2px solid black;
 }
 
 /* Footer specific */ 
