@@ -162,6 +162,10 @@ footer>div>div {
     margin: 0 auto;
 }
 
+.index-panel h2 {
+    padding: 1em;
+}
+
 .black-background {
     background-color: black;
 }
