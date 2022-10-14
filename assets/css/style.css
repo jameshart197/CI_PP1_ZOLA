@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oleo+Script:wght@700&family=Raleway:wght@300;600&display=swap');
 
 /* Base styling */
+
+html {
+    background-color: black;
+}
 
 * {
     margin: 0;
@@ -215,12 +219,13 @@ background-color: black;
     background: linear-gradient(70deg, #5b3b71 20%, rgba(60, 60, 60, 0.9) 50%, #5b3b71 80%);
     padding: 1.5em;
     border-radius: 12px;
+    height: 80%;
 }
 
 .index-panel3 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
-    font-weight: 700;
+    font-size: 120%;
     padding: 2px;
 }
 
@@ -238,7 +243,7 @@ background-color: black;
 }
 
 .menu-container {
-    background: linear-gradient(77deg, rgba(147, 71, 0, 0.9) 0%, rgba(79, 0, 0, .9) 50%, rgba(251, 65, 2, .9) 100%);
+    background: linear-gradient(77deg, rgba(0, 0, 0, 0.9) 0%, rgba(66, 66, 66, 0.9) 100%);
     display: grid;
     grid-template-columns: 3fr auto 1fr;
     grid-template-rows: auto;
@@ -279,17 +284,12 @@ background-color: black;
 
 /* What's On */
 
-#whats-on-background {
-    background: url('../images/purple-water.webp') no-repeat;
-    background-size: cover;
-    width: 100%;
-}
-
 .whats-on-container {
     display: flex;
     flex-direction: column;
     width: 100%;
     text-align: center;
+    background-color: black;
 }
 
 .whats-on-container>div {
@@ -305,13 +305,13 @@ background-color: black;
 
 .whatson-leftside>div {
     width: 100%;
-    background: radial-gradient(circle, rgba(0, 0, 0, 0.9023984593837535) 0%, rgba(42, 42, 42, 0.896796218487395) 100%);
+    background: linear-gradient(70deg, #5b3b71 20%, rgba(60, 60, 60, 0.9) 50%, #5b3b71 80%);
     padding: 1em;
 }
 
 .whatson-rightside>div {
     width: 100%;
-    background: radial-gradient(circle, rgba(0, 0, 0, 0.93) 0%, rgba(36, 36, 36, 0.93) 100%);
+    background: linear-gradient(70deg, #5b3b71 20%, rgba(60, 60, 60, 0.9) 50%, #5b3b71 80%);
     padding: 1em;
 }
 
@@ -322,7 +322,6 @@ background-color: black;
 
 .whats-on-container p {
     padding: 6px;
-    background-color: black;
 }
 
 #newsletter-container {
@@ -387,10 +386,11 @@ background-color: black;
 }
 
 .contact-tile {
-    background: radial-gradient(circle, rgba(0, 0, 0, 0.9023984593837535) 0%, rgba(42, 42, 42, 0.896796218487395) 100%);
+    background-color: black;
     border: 2px solid black;
     border-radius: 10px;
     width: 100%;
+    padding: 1em 0;
 }
 
 .contact-leftside iframe {
@@ -480,7 +480,6 @@ background-color: black;
     }
 
     .menu-container {
-        background: linear-gradient(77deg, rgba(147, 71, 0, 0.7) 0%, rgba(79, 0, 0, .6) 50%, rgba(251, 65, 2, .6) 100%);
         grid-template-columns: 3fr auto 1fr .5fr 3fr auto 1fr;
         grid-template-rows: minmax(150px, auto);
     }
