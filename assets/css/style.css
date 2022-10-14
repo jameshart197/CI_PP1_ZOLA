@@ -85,7 +85,7 @@ header h1 {
     outline: 2px solid black;
 }
 
-/* Footer specific */ 
+/* Footer specific */
 
 footer {
     flex-direction: column;
@@ -126,7 +126,7 @@ footer>div>div {
 /* Hero Image */
 
 #hero-image-viewport {
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
     min-height: 300px;
     flex-shrink: 0;
@@ -178,10 +178,12 @@ footer>div>div {
 /* Panel 3 */
 
 .index-panel3-background {
-background-color: black;
-    padding: 0;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 1em;
     margin: 0;
     width: 100%;
+
 }
 
 #index-titlebox {
@@ -466,7 +468,7 @@ background-color: black;
         grid-template-rows: minmax(150px, auto);
         width: 80%;
     }
-    
+
     /* temporarily disabled hero image scroll
 
     #hero-image {
@@ -516,6 +518,7 @@ background-color: black;
     .contact-rightside {
         width: 40%;
     }
+
     #background-404 {
         background-size: contain;
     }
