@@ -418,6 +418,13 @@ footer h3 {
     padding-bottom: 1em;
 }
 
+.address-ul {
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+    list-style-type: none;
+    font-weight: bold;
+}
+
 .contact-tile p {
     padding-bottom: 1em;
 }
