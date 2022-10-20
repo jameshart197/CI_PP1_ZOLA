@@ -77,7 +77,7 @@ header h1 {
 }
 
 #navbar .current {
-    color: black;
+    text-decoration: underline;
 }
 
 #navbar a:hover {
