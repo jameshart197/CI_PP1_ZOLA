@@ -114,7 +114,7 @@ footer h3 {
     margin: 0.5em;
 }
 
-footer>div>div {
+.social-media-links {
     background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(34, 34, 48, 1) 35%, rgba(17, 2, 25, 0.7987570028011204) 100%);
     border-radius: 4px;
     text-align: center;
@@ -205,7 +205,7 @@ footer>div>div {
 }
 
 .index-panel3 i {
-    font-size: xx-large;
+    font-size: 2em;
 }
 
 .index-panel3 h3 {
@@ -292,7 +292,7 @@ footer>div>div {
     background-size: cover;
 }
 
-.whats-on-container>div {
+.whats-on-container>section {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -426,7 +426,7 @@ footer>div>div {
 
 #container-404 {
     background: radial-gradient(circle, rgba(0, 0, 0, 0.9023984593837535) 0%, rgba(42, 42, 42, 0.896796218487395) 100%);
-}
+    padding: 2em;}
 
 #background-404 {
     background: url('../images/background-404.webp') no-repeat center;

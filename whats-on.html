@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,30 +9,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Zola | Whats On?</title>
-    
+
     <!-- Favicon Links -->
-   
+
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/images/favicon/site.webmanifest">
 </head>
+
 <body>
 
     <!-- Header -->
-    
+
     <header>
 
         <!-- Logo -->
-        
+
         <div>
             <a href="index.html" id="logo-anchor"><img src="assets/images/zola-logo.webp" alt="The zola logo"
                     id="logo"></a>
         </div>
-        
+
         <!-- Main Title -->
-         
-         <div>
+
+        <div>
             <h1>ZOLA</h1>
         </div>
 
@@ -40,25 +42,25 @@
         <div>
             <h2>Share Drinks, Share Memories...</h2>
         </div>
-        
+
         <!-- Navigation Bar - includes "current" class for current page -->
-        
-            <nav>
-                <ul id="navbar">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="menu.html">Menu</a>
-                    </li>
-                    <li>
-                        <a href="whats-on.html" class="current">Whats On?</a>
-                    </li>
-                    <li>
-                        <a href="contact-us.html">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
+
+        <nav>
+            <ul id="navbar">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="menu.html">Menu</a>
+                </li>
+                <li>
+                    <a href="whats-on.html" class="current">Whats On?</a>
+                </li>
+                <li>
+                    <a href="contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
         </div>
     </header>
 
@@ -69,12 +71,12 @@
         <!-- All content is placed in a containing div with flex display, which in turn contains a left and right side div with flex display 
         This allows for maximum responsiveness and quick restyling where required -->
 
-        <div class="whats-on-container">
-            <div class="whatson-leftside">
+        <main class="whats-on-container">
+            <section class="whatson-leftside">
 
                 <!-- This is the current Happy Hour offer, containing an image and a text block -->
 
-                    <div>
+                <div>
                     <div>
                         <img src="assets/images/happy-hour.webp" alt="Two cocktails on a bar table">
                     </div>
@@ -85,9 +87,9 @@
                         <h3>Monday to Thursday</h3>
                     </div>
                 </div>
-                
+
                 <!-- This is the current Live Music event, containing an image and a text block -->
-                
+
                 <div>
                     <div>
                         <h2>Live Music</h2>
@@ -98,11 +100,11 @@
                         <img src="assets/images/live-music.webp" alt="A live band playing music">
                     </div>
                 </div>
-            </div>
-            <div class="whatson-rightside">
-                
+            </section>
+            <section class="whatson-rightside">
+
                 <!-- This banner grabs the user's attention to sign up to the newsletter -->
-                
+
                 <div>
                     <div>
                         <h2>Stay ahead of the curve!</h2>
@@ -121,8 +123,8 @@
 
                         <!-- The form contains required elements to ensure it is filled out correctly, including elements that can only be filled with
                         the correct information type such as email and date inputs -->
-                        
-                        <form id="newsletter-form"  action="https://formdump.codeinstitute.net" method="POST">
+
+                        <form id="newsletter-form" action="https://formdump.codeinstitute.net" method="POST">
                             <label for="firstname">First Name
                                 <input id="firstname" type="text" required>
                             </label>
@@ -145,37 +147,38 @@
                         </form>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
+        </main>
     </div>
-    
+
     <!-- Footer -->
 
     <footer>
-        
+
         <!-- Social Media Links, each opening in a new tab, seperate divs are required
         both for responsiveness and due to each having an individual background -->
-        
-        <div>
-            <div>
+
+        <div class="footer-media-div">
+            <div class="social-media-links">
                 <a href="https://facebook.com" target="_blank">
                     <i class="fa-brands fa-square-facebook"></i>
                     <h3>Find us on Facebook!</h3>
                 </a>
             </div>
-            <div>
+            <div class="social-media-links">
                 <a href="https://instagram.com" target="_blank">
                     <i class="fa-brands fa-square-instagram"></i>
                     <h3>We're on Instagram!</h3>
                 </a>
             </div>
-            <div>
+            <div class="social-media-links">
                 <a href="https://twitter.com" target="_blank">
                     <i class="fa-brands fa-square-twitter"></i>
                     <h3>Send us a tweet!</h3>
                 </a>
             </div>
         </div>
+
 
         <!-- Booking Banner containing telephone number, centered in CSS -->
 

@@ -9,9 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Zola | Contact Us!</title>
-   
+
     <!-- Favicon Links -->
-   
+
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
@@ -21,19 +21,19 @@
 <body>
 
     <!-- Header -->
-    
+
     <header>
 
         <!-- Logo -->
-        
+
         <div>
             <a href="index.html" id="logo-anchor"><img src="assets/images/zola-logo.webp" alt="The zola logo"
                     id="logo"></a>
         </div>
-        
+
         <!-- Main Title -->
-         
-         <div>
+
+        <div>
             <h1>ZOLA</h1>
         </div>
 
@@ -42,35 +42,35 @@
         <div>
             <h2>Share Drinks, Share Memories...</h2>
         </div>
-        
+
         <!-- Navigation Bar - includes "current" class for current page -->
-        
-            <nav>
-                <ul id="navbar">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="menu.html">Menu</a>
-                    </li>
-                    <li>
-                        <a href="whats-on.html">Whats On?</a>
-                    </li>
-                    <li>
-                        <a href="contact-us.html" class="current">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
+
+        <nav>
+            <ul id="navbar">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="menu.html">Menu</a>
+                </li>
+                <li>
+                    <a href="whats-on.html">Whats On?</a>
+                </li>
+                <li>
+                    <a href="contact-us.html" class="current">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
         </div>
     </header>
 
     <!-- This container has the background image, inside which is a container with display:flex to contain relevant boxes -->
-    <div class="contact-us-background">
+    <main class="contact-us-background">
         <div class="contact-us-container">
 
             <!-- The page is split into two divs, leftside and rightside, for responsive adjustment and to make later updates simpler -->
 
-            <div class="contact-leftside">
+            <section class="contact-leftside">
 
                 <!-- All contact tiles are styled the same so each element is placed inside a div with the class "contact-tile"-->
 
@@ -88,11 +88,11 @@
                     <iframe height="450" id="location-map" src="https://bit.ly/3RZvftf"
                         title="Map of London pinpointing location of bar"></iframe>
                 </div>
-            </div>
+            </section>
 
             <!-- Right side container -->
 
-            <div class="contact-rightside">
+            <section class="contact-rightside">
 
                 <!-- Opening times are a table that can easily be adjusted -->
 
@@ -138,52 +138,52 @@
                     <div id="address">
                         <h2>Get in Touch!</h2>
                         <h3>ZOLA</h3>
-                        <h3//>99 Wardour Street</h3>
+                        <h3 / />99 Wardour Street</h3>
                         <h3>London</h3>
                         <h3>W1F 0TN</h3>
                         <p>Interested in a career with Zola?</p>
                         <p>Contact our hiring team at careers@zola.co.uk</p>
                     </div>
                 </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <!-- Social Media Links, each opening in a new tab, seperate divs are required
+    both for responsiveness and due to each having an individual background -->
+
+        <div class="footer-media-div">
+            <div class="social-media-links">
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <h3>Find us on Facebook!</h3>
+                </a>
+            </div>
+            <div class="social-media-links">
+                <a href="https://instagram.com" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <h3>We're on Instagram!</h3>
+                </a>
+            </div>
+            <div class="social-media-links">
+                <a href="https://twitter.com" target="_blank">
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <h3>Send us a tweet!</h3>
+                </a>
             </div>
         </div>
-    </div>
 
-<!-- Footer -->
+        <!-- Booking Banner containing telephone number, centered in CSS -->
 
-<footer>
-        
-    <!-- Social Media Links, each opening in a new tab, seperate divs are required
-    both for responsiveness and due to each having an individual background -->
-    
-    <div>
         <div>
-            <a href="https://facebook.com" target="_blank">
-                <i class="fa-brands fa-square-facebook"></i>
-                <h3>Find us on Facebook!</h3>
-            </a>
+            <h2>For private hire, bookings of over 12 people or more information, please
+                telephone on 07777 777 777</h2>
         </div>
-        <div>
-            <a href="https://instagram.com" target="_blank">
-                <i class="fa-brands fa-square-instagram"></i>
-                <h3>We're on Instagram!</h3>
-            </a>
-        </div>
-        <div>
-            <a href="https://twitter.com" target="_blank">
-                <i class="fa-brands fa-square-twitter"></i>
-                <h3>Send us a tweet!</h3>
-            </a>
-        </div>
-    </div>
-
-    <!-- Booking Banner containing telephone number, centered in CSS -->
-
-    <div>
-        <h2>For private hire, bookings of over 12 people or more information, please
-            telephone on 07777 777 777</h2>
-    </div>
-</footer>
+    </footer>
 
     <!-- Script for FontAwesome Icons -->
 
